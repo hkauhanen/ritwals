@@ -19,9 +19,13 @@ devtools::install_github("hkauhanen/ritwals")
 ```
 
 
-## Manual
+## Usage
 
 See [here](http://henr.in/code/ritwals) for some examples of use.
+
+## Documentation
+
+The full documentation is available on [CRAN](FIXME).
 
 
 ## Legal
