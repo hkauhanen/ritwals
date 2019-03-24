@@ -5,17 +5,25 @@
 
 ## Installation
 
-### Via CRAN
+### From CRAN
 
-FIXME
+```r
+install.packages("ritwals")
+```
 
-### Via github
+### With devtools
 
-```{r}
+```r
 install.packages("devtools")
 devtools::install_github("hkauhanen/ritwals")
 ```
 
+
+## Manual
+
+See [here](http://henr.in/code/ritwals) for some examples of use.
+
+
 ## Legal
 
-For licensing, copyright statement and disclaimer, see [DESCRIPTION](https://github.com/hkauhanen/ritwals/blob/master/DESCRIPTION).
+Licensing, copyright statement and disclaimer: see [DESCRIPTION](https://github.com/hkauhanen/ritwals/blob/master/DESCRIPTION).
