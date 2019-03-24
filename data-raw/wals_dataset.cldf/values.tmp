@@ -1,0 +1,781 @@
+ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,Contribution_ID
+1A-kgi,kgi,1A,Large,1A-5,,Santos-1977,1
+1A-cve,cve,1A,Small,1A-1,,Thurman-1970,1
+1A-nbk,nbk,1A,Moderately large,1A-4,,Wurm-1972b,1
+1A-ach,ach,1A,Small,1A-1,,Susnik-1974,1
+1A-aiz,aiz,1A,Average,1A-3,,Herault-1971,1
+1A-brb,brb,1A,Moderately small,1A-2,,Welmers-1952a,1
+1A-koh,koh,1A,Moderately large,1A-4,,Cook-1969b,1
+1A-mrn,mrn,1A,Small,1A-1,,McKaughan-and-Macaraya-1967;McKaughan-1958,1
+1A-mxm,mxm,1A,Moderately small,1A-2,,Hunter-and-Pike-1969,1
+1A-sab,sab,1A,Average,1A-3,,Clayre-1973,1
+1A-tks,tks,1A,Average,1A-3,,Paulian-1975,1
+1A-wdo,wdo,1A,Moderately small,1A-2,,Douglas-1964;Douglas-1955,1
+1A-wuc,wuc,1A,Average,1A-3,,Chao-1970,1
+1A-ald,ald,1A,Average,1A-3,,Dumestre-and-Duponchel-1971;Duponchel-1971,1
+1A-bki,bki,1A,Moderately small,1A-2,,Wheatley-1969;Wheatley-1973,1
+1A-brd,brd,1A,Moderately small,1A-2,,Metcalfe-1971,1
+1A-bee,bee,1A,Moderately small,1A-2,,Jacquot-1981;Jacquot-1962,1
+1A-bbf,bbf,1A,Average,1A-3,,Morse-1976;Bris-and-Prost-1981,1
+1A-brw,brw,1A,Average,1A-3,,Thongkum-1979,1
+1A-cad,cad,1A,Average,1A-3,,Chafe-1976;Chafe-1979,1
+1A-dad,dad,1A,Small,1A-1,,MacDonald-1973,1
+1A-ddf,ddf,1A,Average,1A-3,,Thelwall-1981;Tucker-and-Bryan-1966,1
+1A-dnw,dnw,1A,Average,1A-3,,Fedry-1977,1
+1A-dar,dar,1A,Moderately large,1A-4,,Kotapish-and-Kotapish-1973;Kotapish-and-Kotapish-1975,1
+1A-det,det,1A,Large,1A-5,,Vossen-1997,1
+1A-dts,dts,1A,Moderately small,1A-2,,Bendor-Samuel-et-al-1989;Plungian-1995,1
+1A-fuz,fuz,1A,Small,1A-1,,Chan-1985;Chen-and-Norman-1965;Hanyu-1960;Norman-1988,1
+1A-gla,gla,1A,Moderately large,1A-4,,He-1983;He-1981,1
+1A-had,had,1A,Large,1A-5,,Tucker-et-al-1977;Sands-et-al-1996,1
+1A-hba,hba,1A,Moderately small,1A-2,,Bolozky-1978;Bolozky-1997,1
+1A-ird,ird,1A,Large,1A-5,,Ni-Chasaide-1999;O-Dochartaigh-1992,1
+1A-iso,iso,1A,Moderately large,1A-4,,Donwa-1982,1
+1A-ivs,ivs,1A,Average,1A-3,,Cottle-and-Cottle-1958;Heye-and-Hidalgo-1967;Hidalgo-and-Hidalgo-1971,1
+1A-jpr,jpr,1A,Small,1A-1,,Durbin-and-Seijas-1972,1
+1A-jom,jom,1A,Small,1A-1,,Schadeberg-1981a,1
+1A-kzh,kzh,1A,Average,1A-3,,Zheng-and-Quan-1988,1
+1A-ked,ked,1A,Moderately small,1A-2,,Samely-1991;Korner-1985,1
+1A-kss,kss,1A,Moderately small,1A-2,,Childs-1995,1
+1A-kpa,kpa,1A,Average,1A-3,,Shimizu-1971,1
+1A-lkk,lkk,1A,Moderately large,1A-4,,Solnit-1988;Haudricourt-1967,1
+1A-lam,lam,1A,Moderately large,1A-4,,Sachnine-1982,1
+1A-lua,lua,1A,Average,1A-3,,Boyeldieu-1985,1
+1A-mya,mya,1A,Small,1A-1,,van-der-Leeden-1993;Remijsen-2001,1
+1A-nkt,nkt,1A,Moderately large,1A-4,,Diffloth-1984;Thongkum-1984;Thongkum-1982,1
+1A-nyg,nyg,1A,Moderately small,1A-2,,Heine-1975a,1
+1A-ogb,ogb,1A,Average,1A-3,,Williamson-1972;Williamson-1970,1
+1A-puk,puk,1A,Large,1A-5,,Diffloth-1980;Maddieson-and-Ladefoged-1985;Qiu-et-al-1980,1
+1A-phl,phl,1A,Average,1A-3,,Cooke-et-al-1976,1
+1A-poa,poa,1A,Moderately small,1A-2,,,1
+1A-rsc,rsc,1A,Average,1A-3,,Soler-and-Ebneter-1988,1
+1A-rtk,rtk,1A,Small,1A-1,,Firchow-et-al-1973;Firchow-and-Firchow-1969,1
+1A-scs,scs,1A,Large,1A-5,,Hasselbrink-1965;Kert-1971,1
+1A-svs,svs,1A,Moderately small,1A-2,,Todd-1975,1
+1A-sui,sui,1A,Large,1A-5,,Li-1948,1
+1A-tmp,tmp,1A,Average,1A-3,,Bergman-et-al-1969,1
+1A-tok,tok,1A,Moderately large,1A-4,,Robinson-1976,1
+1A-tza,tza,1A,Average,1A-3,,Kaufman-1971,1
+1A-umb,umb,1A,Average,1A-3,,Schadeberg-1990;Schadeberg-1982,1
+1A-wnt,wnt,1A,Moderately small,1A-2,,Davis-1969,1
+1A-wps,wps,1A,Moderately small,1A-2,,Tracy-1972,1
+1A-xia,xia,1A,Average,1A-3,,Norman-1988;Hanyu-1960;Ramsey-1987,1
+1A-aik,aik,1A,Average,1A-3,,Hanke-1956;Aikhenvald-and-Dixon-1999[362-363],1
+1A-akw,akw,1A,Small,1A-1,,Edwards-1978,1
+1A-aea,aea,1A,Average,1A-3,,Jacobson-1944;Menovshchikov-1968;Cho-et-al-1997;Rozelle-1997;Bergsland-1994;Bergsland-1956;Bergsland-1959,1
+1A-chu,chu,1A,Average,1A-3,,Stell-1972,1
+1A-fef,fef,1A,Moderately small,1A-2,,Hyman-1972,1
+1A-kef,kef,1A,Average,1A-3,,Fleming-1976,1
+1A-ktk,ktk,1A,Moderately large,1A-4,,Bouny-1977,1
+1A-lu,lu,1A,Average,1A-3,,Li-1964;Morev-1978,1
+1A-nap,nap,1A,Average,1A-3,,Garbell-1965,1
+1A-orm,orm,1A,Average,1A-3,,Efimov-1986,1
+1A-snd,snd,1A,Average,1A-3,,Welmers-1950,1
+1A-wrs,wrs,1A,Small,1A-1,,Brown-1988b,1
+1A-byu,byu,1A,Small,1A-1,,Cunningham-1969,1
+1A-bno,bno,1A,Small,1A-1,,Stolte-and-Stolte-1971,1
+1A-bis,bis,1A,Moderately small,1A-2,,Naden-1973,1
+1A-cac,cac,1A,Small,1A-1,,Cathcart-1979;Anderton-1989,1
+1A-iwm,iwm,1A,Small,1A-1,,Laycock-1965b,1
+1A-jeh,jeh,1A,Large,1A-5,,Gradin-and-Gradin-1979;Cohen-1966;Gradin-1966,1
+1A-kek,kek,1A,Average,1A-3,,Haeseriju-1966;Freeze-1975,1
+1A-kul,kul,1A,Average,1A-3,,Allan-1976a,1
+1A-max,max,1A,Small,1A-1,,Gudschinsky-et-al-1970,1
+1A-mtp,mtp,1A,Small,1A-1,,Schoenhals-and-Schoenhals-1965;Crawford-1963,1
+1A-toa,toa,1A,Small,1A-1,,Brown-1973,1
+1A-yey,yey,1A,Large,1A-5,,Gowlett-1997,1
+1A-agh,agh,1A,Average,1A-3,,Hyman-1979,1
+1A-aht,aht,1A,Moderately large,1A-4,,Kari-1990,1
+1A-eya,eya,1A,Moderately large,1A-4,,Krauss-1965,1
+1A-kly,kly,1A,Moderately small,1A-2,,Wurm-1972a;Kennedy-1981,1
+1A-kot,kot,1A,Average,1A-3,,Emeneau-1944,1
+1A-lus,lus,1A,Large,1A-5,,Bates-et-al-1994,1
+1A-nob,nob,1A,Moderately small,1A-2,,Bell-1968;Bell-1971;Werner-1987,1
+1A-pac,pac,1A,Average,1A-3,,Watson-1964,1
+1A-qco,qco,1A,Moderately large,1A-4,,Lastra-1968,1
+1A-ror,ror,1A,Small,1A-1,,Bluhme-1970;Davis-1974,1
+1A-soq,soq,1A,Moderately large,1A-4,,Johnstone-1975;Leslau-1938,1
+1A-ant,ant,1A,Small,1A-1,,Huisman-and-Lloyd-1981;Huisman-et-al-1981;Huisman-1973,1
+1A-bng,bng,1A,Small,1A-1,,Parker-and-Parker-1974,1
+1A-cck,cck,1A,Moderately small,1A-2,,Gordon-et-al-2000;Munro-et-al-2002,1
+1A-cof,cof,1A,Moderately large,1A-4,,Borman-1962,1
+1A-dah,dah,1A,Large,1A-5,,Nurse-1986;Tucker-et-al-1977;Maddieson-et-al-1993,1
+1A-eja,eja,1A,Average,1A-3,,Watters-1981,1
+1A-ghb,ghb,1A,Moderately small,1A-2,,Kondo-and-Kondo-1967,1
+1A-kal,kal,1A,Large,1A-5,,Baart-1997,1
+1A-kkn,kkn,1A,Average,1A-3,,Major-1979;Gajendragadkar-1970;Madtha-1984,1
+1A-kur,kur,1A,Average,1A-3,,Pinnow-1964;Pfeiffer-1972,1
+1A-sha,sha,1A,Average,1A-3,,Chao-1951;Cheng-1973b;Chan-1980,1
+1A-tsg,tsg,1A,Moderately small,1A-2,,Ashley-1963,1
+1A-try,try,1A,Moderately small,1A-2,,Schlegel-1971;Post-1966,1
+1A-uzn,uzn,1A,Average,1A-3,,Sjoberg-1962;Sjoberg-1963,1
+1A-adz,adz,1A,Moderately small,1A-2,,Holzknecht-1973,1
+1A-amz,amz,1A,Average,1A-3,,Longacre-1966;Bauernschmidt-1965,1
+1A-cil,cil,1A,Average,1A-3,,de-Schryver-1999,1
+1A-gmb,gmb,1A,Moderately small,1A-2,,Branks-and-Branks-1973;Caudmont-1954,1
+1A-maz,maz,1A,Large,1A-5,,Spotts-1953,1
+1A-nax,nax,1A,Large,1A-5,,Jiang-1980;Jiang-1985;Bradley-1975,1
+1A-pnr,pnr,1A,Small,1A-1,,Cauty-1974a;Cauty-1974b;Cauty-1978;Payne-1990b,1
+1A-sdh,sdh,1A,Large,1A-5,,Nihalani-1999,1
+1A-tpa,tpa,1A,Moderately small,1A-2,,Aschmann-1946,1
+1A-bet,bet,1A,Average,1A-3,,Werle-and-Gbalehi-1976,1
+1A-mov,mov,1A,Moderately small,1A-2,,Judy-and-Judy-1962b;Aikhenvald-and-Dixon-1999,1
+1A-nim,nim,1A,Small,1A-1,,Anceaux-1965,1
+1A-teh,teh,1A,Moderately large,1A-4,,Fernandez-Garay-1998,1
+1A-yan,yan,1A,Average,1A-3,,Sapir-and-Swadesh-1960,1
+1A-yaw,yaw,1A,Small,1A-1,,Jones-1986b,1
+1A-khr,khr,1A,Moderately large,1A-4,,Biligiri-1965;Pinnow-1959,1
+1A-mla,mla,1A,Average,1A-3,,Perrin-and-Hill-1969;Connell-2000,1
+1A-mbb,mbb,1A,Average,1A-3,,Dixon-1966a;Dixon-1966b,1
+1A-arb,arb,1A,Small,1A-1,,Rich-1963,1
+1A-awn,awn,1A,Moderately large,1A-4,,Hetzron-1976;Hetzron-1969,1
+1A-chl,chl,1A,Moderately large,1A-4,,Kinkade-1963,1
+1A-kla,kla,1A,Small,1A-1,,Singler-1979,1
+1A-kun,kun,1A,Moderately small,1A-2,,Baptista-and-Wallin-1974;Sherzer-1983,1
+1A-oca,oca,1A,Moderately large,1A-4,,Agnew-and-Pike-1957;Aschmann-1993,1
+1A-sba,sba,1A,Average,1A-3,,Benaissa-1979,1
+1A-irx,irx,1A,Average,1A-3,,Meader-1967,1
+1A-kad,kad,1A,Average,1A-3,,Matsushita-1984;Abdalla-1973,1
+1A-sor,sor,1A,Moderately small,1A-2,,Ramamurti-1986,1
+1A-ycn,ycn,1A,Moderately small,1A-2,,Schauer-and-Schauer-1967,1
+1A-shs,shs,1A,Moderately small,1A-2,,Silver-1964;Silver-1966,1
+1A-tso,tso,1A,Moderately small,1A-2,,Wright-and-Ladefoged-1994;Tung-1964,1
+1A-yct,yct,1A,Average,1A-3,,Straight-1976,1
+1A-der,der,1A,Small,1A-1,,Voorhoeve-1971,1
+1A-gan,gan,1A,Average,1A-3,,Yadav-nd,1
+1A-sdw,sdw,1A,Large,1A-5,,Dempwolff-1916;Maddieson-et-al-1999;Elderkin-1982;Kagaya-1993;Tucker-et-al-1977,1
+1A-tug,tug,1A,Average,1A-3,,Prasse-1972;Louali-Reynal-et-al-1997,1
+1A-abm,abm,1A,Small,1A-1,,Rand-1968,1
+1A-cam,cam,1A,Average,1A-3,,Howard-1972;Howard-1967;Mongui-Sanchez-1981,1
+1A-hmr,hmr,1A,Average,1A-3,,Lydall-1976,1
+1A-seb,seb,1A,Small,1A-1,,Montgomery-1970,1
+1A-yay,yay,1A,Average,1A-3,,Gedney-1965,1
+1A-bra,bra,1A,Average,1A-3,,Keller-1976,1
+1A-hak,hak,1A,Moderately small,1A-2,,Hashimoto-1973,1
+1A-mui,mui,1A,Average,1A-3,,Walton-and-Walton-1967;Aschmann-1993,1
+1A-nai,nai,1A,Moderately small,1A-2,,Avrorin-1968,1
+1A-tma,tma,1A,Average,1A-3,,Tucker-and-Bryan-1966,1
+1A-tmn,tmn,1A,Moderately small,1A-2,,Tucker-and-Bryan-1966,1
+1A-yny,yny,1A,Moderately large,1A-4,,Huttar-and-Kirton-1981;Kirton-and-Charlie-1978;Kirton-1967,1
+1A-efi,efi,1A,Small,1A-1,,Cook-1969a,1
+1A-ga,ga,1A,Moderately large,1A-4,,Kropp-1987;Berry-nd,1
+1A-ign,ign,1A,Average,1A-3,,Ott-and-Ott-1967a,1
+1A-mog,mog,1A,Average,1A-3,,Weiers-1971,1
+1A-mor,mor,1A,Small,1A-1,,Laycock-1978,1
+1A-woi,woi,1A,Moderately small,1A-2,,Stokhof-1979,1
+1A-adk,adk,1A,Small,1A-1,,Landaburu-1979,1
+1A-ful,ful,1A,Average,1A-3,,Lapenda-1968,1
+1A-ito,ito,1A,Average,1A-3,,Liccardi-and-Grimes-1968,1
+1A-jav,jav,1A,Average,1A-3,,Uhlenbeck-1963;Fagan-1988;Herrfurth-1964;Horne-1961,1
+1A-koi,koi,1A,Small,1A-1,,Dutton-1969;Dutton-1996,1
+1A-mzc,mzc,1A,Average,1A-3,,Jamieson-1976b;Jamieson-1976a,1
+1A-mba,mba,1A,Average,1A-3,,Pasch-1986,1
+1A-nnc,nnc,1A,Moderately small,1A-2,,Das-1977;Radhakrishnan-1981,1
+1A-amo,amo,1A,Average,1A-3,,Anderson-1980;Di-Luzio-1972,1
+1A-amu,amu,1A,Average,1A-3,,Wise-1958;Fast-1953,1
+1A-bua,bua,1A,Moderately small,1A-2,,Glasgow-and-Glasgow-1967,1
+1A-chw,chw,1A,Average,1A-3,,Edmondson-and-Gregerson-1993;Blood-1967,1
+1A-fas,fas,1A,Small,1A-1,,Loeweke-and-May-1964,1
+1A-nyi,nyi,1A,Moderately small,1A-2,,Stevenson-1957;Tucker-and-Bryan-1966,1
+1A-sin,sin,1A,Moderately small,1A-2,,Wheeler-and-Wheeler-1962,1
+1A-tul,tul,1A,Average,1A-3,,Bhat-1967,1
+1A-baj,baj,1A,Moderately large,1A-4,,Verheijen-1986,1
+1A-gds,gds,1A,Small,1A-1,,Frantz-and-Frantz-1966,1
+1A-igs,igs,1A,Average,1A-3,,Tucker-and-Bryan-1966;Crewe-1975,1
+1A-kpe,kpe,1A,Average,1A-3,,Hyman-1973;Welmers-1973;Welmers-1962,1
+1A-mbm,mbm,1A,Moderately large,1A-4,,Hagege-1970,1
+1A-tic,tic,1A,Moderately small,1A-2,,Anderson-1962;Anderson-1959,1
+1A-wry,wry,1A,Moderately small,1A-2,,Harvey-1986,1
+1A-wmu,wmu,1A,Small,1A-1,,McConnel-1945;Sayers-and-Godfrey-1964,1
+1A-paw,paw,1A,Small,1A-1,,Trefry-1972;MacDonald-1973,1
+1A-pec,pec,1A,Moderately small,1A-2,,Holt-1999b;Holt-1986,1
+1A-twn,twn,1A,Moderately large,1A-4,,Hoijer-and-Dozier-1949;Trager-1971,1
+1A-kom,kom,1A,Average,1A-3,,Tucker-and-Bryan-1966,1
+1A-kmp,kmp,1A,Moderately small,1A-2,,Pence-1966,1
+1A-llm,llm,1A,Average,1A-3,,Hoftmann-1971,1
+1A-nis,nis,1A,Moderately small,1A-2,,Namkung-1996;Ray-1967,1
+1A-rut,rut,1A,Large,1A-5,,Dzhejranishvili-1967;Ibragimov-1978;Kodzasov-1990b,1
+1A-yar,yar,1A,Small,1A-1,,Weimer-and-Weimer-1972,1
+1A-yes,yes,1A,Moderately small,1A-2,,Foreman-and-Marten-1973,1
+1A-yus,yus,1A,Moderately large,1A-4,,Krauss-1975,1
+1A-cti,cti,1A,Average,1A-3,,Henderson-1965,1
+1A-xoo,xoo,1A,Large,1A-5,,Traill-1994;Traill-1985,1
+1A-yul,yul,1A,Large,1A-5,,Boyeldieu-1987,1
+1A-kng,kng,1A,Small,1A-1,,Kindell-1972;Henry-1935;Wiesemann-1972,1
+1A-ndt,ndt,1A,Moderately large,1A-4,,Gueye-1986,1
+1A-nga,nga,1A,Average,1A-3,,Tereshchenko-1979;Castren-1966;Tereshchenko-1966c,1
+1A-ytu,ytu,1A,Average,1A-3,,Krejnovich-1958;Krejnovich-1968c,1
+1A-amc,amc,1A,Small,1A-1,,Osborn-1948,1
+1A-bai,bai,1A,Moderately small,1A-2,,Dell-1981,1
+1A-cay,cay,1A,Average,1A-3,,Lindskoog-and-Brend-1962,1
+1A-chp,chp,1A,Large,1A-5,,Li-1932;Li-1946;Li-1933,1
+1A-kry,kry,1A,Moderately small,1A-2,,Zhukova-1980,1
+1A-acm,acm,1A,Moderately small,1A-2,,Olmsted-1964;Olmsted-1966,1
+1A-anc,anc,1A,Moderately large,1A-4,,Burquest-1971,1
+1A-api,api,1A,Small,1A-1,,Burgess-and-Ham-1968,1
+1A-bod,bod,1A,Moderately small,1A-2,,Bhat-1968,1
+1A-chq,chq,1A,Moderately large,1A-4,,Robbins-1968;Robbins-1961,1
+1A-dan,dan,1A,Average,1A-3,,Bearth-and-Zemp-1967,1
+1A-diz,diz,1A,Average,1A-3,,Allan-1976b,1
+1A-irr,irr,1A,Small,1A-1,,Voorhoeve-1989,1
+1A-koy,koy,1A,Average,1A-3,,Tyler-1969,1
+1A-mie,mie,1A,Moderately large,1A-4,,Purnell-1965;Mao-et-al-1982,1
+1A-slp,slp,1A,Moderately small,1A-2,,McElhanon-1970b;McElhanon-1970c,1
+1A-shi,shi,1A,Small,1A-1,,Migliazza-and-Grimes-1961,1
+1A-tol,tol,1A,Average,1A-3,,Fleming-and-Dennis-1977;Holt-1999a,1
+1A-ani,ani,1A,Large,1A-5,,Vossen-1997;Vossen-1986,1
+1A-ccp,ccp,1A,Average,1A-3,,Crawford-1966[13],1
+1A-hum,hum,1A,Moderately small,1A-2,,Minor-et-al-1982;Burtch-1983;Aschmann-1993;Petersen-de-Pineros-1994,1
+1A-jiv,jiv,1A,Moderately small,1A-2,,Beasley-and-Pike-1957,1
+1A-kzy,kzy,1A,Moderately large,1A-4,,Bubrix-1949;Lytkin-1966b,1
+1A-nhn,nhn,1A,Moderately small,1A-2,,Brockway-1963,1
+1A-sre,sre,1A,Moderately large,1A-4,,Manley-1972,1
+1A-gwa,gwa,1A,Average,1A-3,,Hyman-and-Magaji-1970,1
+1A-kws,kws,1A,Average,1A-3,,Zigmond-et-al-1990-1991,1
+1A-kgz,kgz,1A,Average,1A-3,,Junusaliev-1966;Herbert-and-Poppe-1963,1
+1A-kiw,kiw,1A,Small,1A-1,,Wurm-1977,1
+1A-kwo,kwo,1A,Average,1A-3,,Kooyers-et-al-1971,1
+1A-mnc,mnc,1A,Moderately small,1A-2,,Austin-1962,1
+1A-non,non,1A,Average,1A-3,,Hyman-1981b,1
+1A-bco,bco,1A,Moderately large,1A-4,,Newman-1947;Nater-1984,1
+1A-ber,ber,1A,Average,1A-3,,Triulzi-et-al-1976a,1
+1A-cso,cso,1A,Moderately small,1A-2,,Pride-1965,1
+1A-ewo,ewo,1A,Moderately large,1A-4,,Abega-1970;Redden-1979;Nnomo-and-Mbezele-1982,1
+1A-ksg,ksg,1A,Moderately large,1A-4,,Jones-1961,1
+1A-kwk,kwk,1A,Large,1A-5,,Grubb-1977;Boas-1911a;Newman-1950;Boas-1947,1
+1A-ruk,ruk,1A,Average,1A-3,,Li-1973;Li-1977b,1
+1A-wah,wah,1A,Moderately small,1A-2,,Ladefoged-et-al-1977;Phillips-1976,1
+1A-ata,ata,1A,Average,1A-3,,Egerod-1966b,1
+1A-aze,aze,1A,Average,1A-3,,Householder-and-Lofti-1965,1
+1A-ben,ben,1A,Moderately large,1A-4,,Klaiman-1990;Ferguson-and-Chowdhury-1960,1
+1A-iba,iba,1A,Average,1A-3,,Scott-1957;Omar-1981,1
+1A-jeb,jeb,1A,Average,1A-3,,Bendor-Samuel-1961b,1
+1A-jng,jng,1A,Average,1A-3,,Liu-1964,1
+1A-mme,mme,1A,Average,1A-3,,Kovedjaeva-1966;Ristinen-1960,1
+1A-mpa,mpa,1A,Average,1A-3,,Street-and-Mollinjin-1981,1
+1A-new,new,1A,Average,1A-3,,Hale-and-Hale-1969;Manandhar-1986,1
+1A-kkv,kkv,1A,Moderately small,1A-2,,Counts-1969,1
+1A-kya,kya,1A,Small,1A-1,,Oates-and-Oates-1964;Wurm-1972a;Oates-1964b,1
+1A-skp,skp,1A,Moderately small,1A-2,,Prokofjeva-1966;Katz-1975b,1
+1A-ttu,ttu,1A,Large,1A-5,,Desheriev-1953,1
+1A-alw,alw,1A,Average,1A-3,,Sharpe-1972,1
+1A-ao,ao,1A,Small,1A-1,,Gowda-1972;Gowda-1975,1
+1A-fye,fye,1A,Large,1A-5,,Nettle-1998,1
+1A-grr,grr,1A,Average,1A-3,,Furby-1974,1
+1A-kgu,kgu,1A,Average,1A-3,,Blake-1979b,1
+1A-mro,mro,1A,Average,1A-3,,Schadeberg-1981b;Black-and-Black-1971,1
+1A-nar,nar,1A,Average,1A-3,,Bender-1968;Thompson-1976a,1
+1A-tam,tam,1A,Average,1A-3,,Mazaudon-1973,1
+1A-tib,tib,1A,Large,1A-5,,Denwood-1999,1
+1A-tlp,tlp,1A,Average,1A-3,,Suarez-1983a,1
+1A-zan,zan,1A,Average,1A-3,,Tucker-and-Hackett-1959,1
+1A-dgb,dgb,1A,Average,1A-3,,Wilson-and-Bendor-Samuel-1969;Olawsky-1999,1
+1A-dum,dum,1A,Small,1A-1,,Ross-1980,1
+1A-nuu,nuu,1A,Large,1A-5,,Stonham-1999;Carlson-et-al-2001,1
+1A-snh,snh,1A,Average,1A-3,,Coates-and-da-Silva-1960,1
+1A-yel,yel,1A,Large,1A-5,,,1
+1A-bto,bto,1A,Moderately small,1A-2,,van-der-Tuuk-1971,1
+1A-bir,bir,1A,Average,1A-3,,Wolff-1959;Bouquiaux-1970,1
+1A-din,din,1A,Average,1A-3,,Andersen-1987;Malou-1988,1
+1A-evn,evn,1A,Moderately small,1A-2,,Novikova-1966;Novikova-1960,1
+1A-goa,goa,1A,Small,1A-1,,Mansen-1967;Holmer-1949d,1
+1A-mgg,mgg,1A,Average,1A-3,,Todaeva-1973,1
+1A-oji,oji,1A,Moderately small,1A-2,,Bloomfield-1957,1
+1A-res,res,1A,Moderately large,1A-4,,Allin-1976,1
+1A-snc,snc,1A,Small,1A-1,,Chafe-1967,1
+1A-srn,srn,1A,Average,1A-3,,Firestone-1965,1
+1A-che,che,1A,Small,1A-1,,Bender-and-Harris-1946;Walker-1975b;Cook-1979,1
+1A-hup,hup,1A,Moderately large,1A-4,,Gordon-1996;Woodward-1964;Golla-1970,1
+1A-ite,ite,1A,Moderately large,1A-4,,Volodin-1976,1
+1A-kab,kab,1A,Large,1A-5,,Kuipers-1960,1
+1A-knk,knk,1A,Average,1A-3,,Newman-1974,1
+1A-kwa,kwa,1A,Moderately small,1A-2,,Keesing-1985,1
+1A-shu,shu,1A,Large,1A-5,,Kuipers-1974,1
+1A-tne,tne,1A,Moderately small,1A-2,,Wilson-1961a;Dalby-1966,1
+1A-ctl,ctl,1A,Average,1A-3,,Carbonell-and-Llisteri-1999,1
+1A-lui,lui,1A,Average,1A-3,,Bright-1968;Malecot-1963b;Hyde-1971;Kroeber-and-Grace-1960;Bright-1965a,1
+1A-nmb,nmb,1A,Average,1A-3,,Kroeker-1972;Price-1976,1
+1A-nas,nas,1A,Small,1A-1,,Hurd-and-Hurd-1966,1
+1A-hop,hop,1A,Average,1A-3,,Whorf-1946a;Voegelin-1956;Kluckhohn-and-MacLeish-1955,1
+1A-mum,mum,1A,Average,1A-3,,Shimizu-1983,1
+1A-tac,tac,1A,Moderately small,1A-2,,Van-Wynen-and-Van-Wynen-1962;Key-1968,1
+1A-ter,ter,1A,Large,1A-5,,Newman-1970,1
+1A-wma,wma,1A,Moderately small,1A-2,,Voorhoeve-1982;Watuseke-1976,1
+1A-wiy,wiy,1A,Average,1A-3,,Teeter-1964,1
+1A-brr,brr,1A,Small,1A-1,,Crowell-1979,1
+1A-djp,djp,1A,Average,1A-3,,Morphy-1983;Rose-et-al-1982,1
+1A-doy,doy,1A,Average,1A-3,,Wiering-1974,1
+1A-krd,krd,1A,Moderately large,1A-4,,Abdulla-and-McCarus-1967;McCarus-1958,1
+1A-len,len,1A,Moderately small,1A-2,,Lynch-1978,1
+1A-qaw,qaw,1A,Average,1A-3,,Clairis-1977;Clairis-1985,1
+1A-ttn,ttn,1A,Small,1A-1,,Morris-1984,1
+1A-ygr,ygr,1A,Small,1A-1,,Renck-1975;Haiman-1980;Renck-1967,1
+1A-cub,cub,1A,Small,1A-1,,Morse-and-Maxwell-1999b;Salser-1971,1
+1A-dgr,dgr,1A,Average,1A-3,,Bao-1982,1
+1A-htc,htc,1A,Average,1A-3,,Larsen-and-Pike-1949;Peralta-1984;McQuown-1984,1
+1A-ik,ik,1A,Moderately large,1A-4,,Tucker-1971;Heine-1975b,1
+1A-nun,nun,1A,Average,1A-3,,Li-1977a,1
+1A-pae,pae,1A,Large,1A-5,,Jung-1989;Gerdel-1973;Gerdel-1985,1
+1A-sed,sed,1A,Large,1A-5,,Smith-1968;Smith-1979,1
+1A-bsk,bsk,1A,Moderately large,1A-4,,Poppe-1964,1
+1A-mlk,mlk,1A,Small,1A-1,,Birk-1975;Tryon-1974,1
+1A-arc,arc,1A,Large,1A-5,,Kodzasov-1977,1
+1A-ava,ava,1A,Large,1A-5,,Zhirkov-1936;Charachidze-1981,1
+1A-gbb,gbb,1A,Moderately large,1A-4,,Samarin-1966;Monino-and-Roulon-1972,1
+1A-ngz,ngz,1A,Large,1A-5,,Schuh-1981,1
+1A-poh,poh,1A,Small,1A-1,,Rehg-1984b;Rehg-1984a;Rehg-1981,1
+1A-hve,hve,1A,Average,1A-3,,Stairs-Kreger-and-Scharfe-de-Stairs-1981;Suarez-1975,1
+1A-kty,kty,1A,Moderately small,1A-2,,Nikolaeva-1999;Gulya-1966,1
+1A-tel,tel,1A,Moderately large,1A-4,,Lisker-1963;Kostic-et-al-1977;Krishnamurti-1961;Sastry-1972;Kelley-1963,1
+1A-ykt,ykt,1A,Average,1A-3,,Krueger-1962;Bohtlingk-1964;Ubrjatova-1966,1
+1A-klm,klm,1A,Moderately large,1A-4,,Barker-1964;Barker-1963a,1
+1A-nep,nep,1A,Moderately large,1A-4,,Bandhu-et-al-1971,1
+1A-tgr,tgr,1A,Moderately large,1A-4,,Palmer-1962;Klingenheben-1966,1
+1A-tuv,tuv,1A,Average,1A-3,,Sat-1966;Anderson-and-Harrison-1999;Song-1982;Seglenmej-1979,1
+1A-nor,nor,1A,Average,1A-3,,Vanvik-1972,1
+1A-qui,qui,1A,Moderately large,1A-4,,Hoard-1993;Powell-1975,1
+1A-bre,bre,1A,Average,1A-3,,Ternes-1970;Bothorel-1982,1
+1A-ijo,ijo,1A,Average,1A-3,,Williamson-1965,1
+1A-luo,luo,1A,Moderately large,1A-4,,Gregersen-1961,1
+1A-psh,psh,1A,Moderately large,1A-4,,Shafeev-1964;Grjunberg-1987;Penzl-1955,1
+1A-sel,sel,1A,Average,1A-3,,Najlis-1973,1
+1A-wap,wap,1A,Moderately large,1A-4,,Sawyer-1965,1
+1A-win,win,1A,Moderately large,1A-4,,Pitkin-1984;Schlichter-1981,1
+1A-akn,akn,1A,Average,1A-3,,Welmers-1946;Ladefoged-1964;Dolphyne-1988;Schachter-and-Fromkin-1968;Stewart-1967,1
+1A-bri,bri,1A,Moderately small,1A-2,,Arroyo-1972,1
+1A-cax,cax,1A,Moderately small,1A-2,,Payne-1981;Dirks-1953,1
+1A-lug,lug,1A,Moderately large,1A-4,,Tucker-and-Bryan-1966;Crazzolara-1960;Anderson-1986,1
+1A-maa,maa,1A,Average,1A-3,,Tucker-and-Bryan-1966;Tucker-and-Mpaayei-1955,1
+1A-yap,yap,1A,Average,1A-3,,Hsu-1969;Jensen-et-al-1977a,1
+1A-iaa,iaa,1A,Large,1A-5,,Maddieson-and-Anderson-1995;Haudricourt-1971;Ozanne-Rivierre-1976,1
+1A-jaq,jaq,1A,Large,1A-5,,Hardman-2000,1
+1A-tgk,tgk,1A,Small,1A-1,,Beaumont-1979,1
+1A-ton,ton,1A,Moderately small,1A-2,,Hoijer-1946b;Hoijer-1972;Hoijer-1949,1
+1A-amp,amp,1A,Large,1A-5,,Henderson-1994,1
+1A-die,die,1A,Average,1A-3,,Langdon-1970,1
+1A-diy,diy,1A,Average,1A-3,,Austin-1981,1
+1A-lak,lak,1A,Large,1A-5,,Murkelinskij-1967;Khajdakov-1966b;Zhirkov-1955,1
+1A-mne,mne,1A,Moderately small,1A-2,,Shipley-1964;Shipley-1956,1
+1A-eka,eka,1A,Small,1A-1,,Steltenpool-1969;Doble-1987,1
+1A-ham,ham,1A,Small,1A-1,,Healey-1981;Oates-and-Oates-1968,1
+1A-mrg,mrg,1A,Moderately large,1A-4,,Maddieson-1987;Hoffmann-1963,1
+1A-nan,nan,1A,Small,1A-1,,Creider-and-Creider-1989,1
+1A-mrd,mrd,1A,Moderately small,1A-2,,Drabbe-1955,1
+1A-abi,abi,1A,Moderately small,1A-2,,Najlis-1966,1
+1A-mab,mab,1A,Average,1A-3,,Tucker-and-Bryan-1966,1
+1A-wlf,wlf,1A,Moderately large,1A-4,,Sauvageot-1965;Ka-1994;Ward-1963;Manessy-and-Sauvageot-1963,1
+1A-chv,chv,1A,Average,1A-3,,Krueger-1961;Andreev-1966,1
+1A-kas,kas,1A,Moderately large,1A-4,,Zakharin-and-Edelman-1971;Bhat-1987;Zakharin-1974;Kelkar-and-Trisal-1964,1
+1A-pur,pur,1A,Moderately large,1A-4,,Foster-1969;Chamereau-2000;de-Paul-1989,1
+1A-una,una,1A,Average,1A-3,,Louwerse-1988,1
+1A-dyi,dyi,1A,Small,1A-1,,Dixon-1972,1
+1A-haw,haw,1A,Small,1A-1,,Schutz-1981;Pukui-and-Elbert-1965;Elbert-and-Pukui-1979,1
+1A-kch,kch,1A,Moderately small,1A-2,,Heath-1999b,1
+1A-lit,lit,1A,Large,1A-5,,Ambrazas-et-al-1966;Augustitis-1964;Senn-1966,1
+1A-ood,ood,1A,Average,1A-3,,Hale-1959;Saxton-and-Saxton-1969;Saxton-1963,1
+1A-rom,rom,1A,Average,1A-3,,Ruhlen-1973;Agard-1958;Tataru-1978,1
+1A-bul,bul,1A,Average,1A-3,,Scatton-1984;Ternes-and-Vladimirova-Buhtz-1999;Bidwell-1968;Aronson-1968;Klagstad-1958,1
+1A-lah,lah,1A,Moderately large,1A-4,,Matisoff-1988;Matisoff-1973,1
+1A-yuc,yuc,1A,Large,1A-5,,Crawford-1973;Ballard-1975,1
+1A-pso,pso,1A,Moderately large,1A-4,,Moshinsky-1974,1
+1A-zun,zun,1A,Average,1A-3,,Walker-1972;Newman-1965,1
+1A-snt,snt,1A,Small,1A-1,,Cowan-1965,1
+1A-krb,krb,1A,Small,1A-1,,Groves-et-al-1985,1
+1A-som,som,1A,Average,1A-3,,Armstrong-1964;Andrzejewsky-1955;Hyman-1981a;Andrzejewsky-1956;Cardona-1981;Farnetani-1981,1
+1A-cnt,cnt,1A,Average,1A-3,,Zee-1999,1
+1A-fur,fur,1A,Moderately small,1A-2,,Tucker-and-Bryan-1966;Jakobi-1990;Beaton-1968,1
+1A-pol,pol,1A,Large,1A-5,,,1
+1A-ker,ker,1A,Average,1A-3,,Ebert-1979;Ebert-1976,1
+1A-lad,lad,1A,Moderately large,1A-4,,Koshal-1979,1
+1A-lep,lep,1A,Moderately large,1A-4,,Mainwaring-1876;Mainwaring-1898;Ju-1996,1
+1A-tli,tli,1A,Large,1A-5,,Maddieson-et-al-2001,1
+1A-wam,wam,1A,Moderately small,1A-2,,Nordlinger-1998,1
+1A-alb,alb,1A,Average,1A-3,,Newmark-1957,1
+1A-bam,bam,1A,Average,1A-3,,Bird-et-al-1977,1
+1A-kyl,kyl,1A,Average,1A-3,,Solnit-1997,1
+1A-nti,nti,1A,Large,1A-5,,Kutsch-Lojenga-1994,1
+1A-car,car,1A,Moderately small,1A-2,,Hoff-1968;Peasgood-1972,1
+1A-tsi,tsi,1A,Large,1A-5,,Dunn-1979;Hoard-1978;Dunn-1970;Mulder-1988;Dunn-1995,1
+1A-tun,tun,1A,Moderately small,1A-2,,Haas-1940,1
+1A-sue,sue,1A,Small,1A-1,,Wilson-1969;Wilson-1974,1
+1A-mku,mku,1A,Small,1A-1,,Tryon-1970b,1
+1A-mrl,mrl,1A,Average,1A-3,,Yigezu-2001;Arensen-1982,1
+1A-psm,psm,1A,Moderately small,1A-2,,Leavitt-1996;Sherwood-1986;LeSourd-1993,1
+1A-pit,pit,1A,Moderately small,1A-2,,Glass-and-Hackett-1970;Eckert-and-Hudson-1988,1
+1A-amh,amh,1A,Moderately large,1A-4,,Hayward-and-Hayward-1999,1
+1A-ana,ana,1A,Average,1A-3,,de-Pitman-1981,1
+1A-cyv,cyv,1A,Moderately small,1A-2,,Key-1967;Key-1961,1
+1A-dio,dio,1A,Average,1A-3,,Sapir-1965,1
+1A-arm,arm,1A,Moderately large,1A-4,,Allen-1950,1
+1A-aym,aym,1A,Moderately large,1A-4,,Martin-1969,1
+1A-baw,baw,1A,Average,1A-3,,Reichle-1981,1
+1A-wrd,wrd,1A,Moderately small,1A-2,,Merlan-1994,1
+1A-hai,hai,1A,Large,1A-5,,Sapir-1923,1
+1A-kmu,kmu,1A,Average,1A-3,,Svantesson-1983,1
+1A-usa,usa,1A,Small,1A-1,,Reesink-1987,1
+1A-pai,pai,1A,Average,1A-3,,Ho-1977;Ferrel-1982,1
+1A-ung,ung,1A,Moderately small,1A-2,,Coate-and-Elkin-1974;Coate-and-Oates-1970;Rumsey-1982,1
+1A-bej,bej,1A,Average,1A-3,,Hudson-1974;Hudson-1976b,1
+1A-dre,dre,1A,Moderately large,1A-4,,Moyse-Faurie-1983,1
+1A-gar,gar,1A,Moderately small,1A-2,,Burling-1961,1
+1A-pms,pms,1A,Moderately small,1A-2,,Crowley-1982,1
+1A-mss,mss,1A,Moderately small,1A-2,,Freeland-1951;Broadbent-1964,1
+1A-sml,sml,1A,Moderately large,1A-4,,Kruspe-1999,1
+1A-yur,yur,1A,Moderately large,1A-4,,Robins-1958,1
+1A-dag,dag,1A,Small,1A-1,,Murane-1974,1
+1A-otm,otm,1A,Average,1A-3,,Wallis-1968;Hess-1968;Sinclair-and-Pike-1948,1
+1A-igb,igb,1A,Moderately large,1A-4,,Ikekeonwu-1999,1
+1A-nez,nez,1A,Moderately large,1A-4,,Aoki-1994,1
+1A-brh,brh,1A,Average,1A-3,,De-Armond-1975;Emeneau-1962;Emeneau-1937,1
+1A-cah,cah,1A,Average,1A-3,,Seiler-1977;Sauvel-and-Munro-1981;Bright-1965b,1
+1A-cle,cle,1A,Average,1A-3,,Rupp-1990;Rupp-1989,1
+1A-knm,knm,1A,Average,1A-3,,Bender-1996,1
+1A-nav,nav,1A,Moderately large,1A-4,,Sapir-and-Hoijer-1967;Young-and-Morgan-1972,1
+1A-zqc,zqc,1A,Moderately small,1A-2,,Wonderly-1951a,1
+1A-bkr,bkr,1A,Moderately small,1A-2,,Woollams-1996,1
+1A-cmn,cmn,1A,Small,1A-1,,Charney-1993;Wistrand-Robinson-and-Armagost-1990,1
+1A-nko,nko,1A,Average,1A-3,,Taylor-1985,1
+1A-squ,squ,1A,Large,1A-5,,Kuipers-1967,1
+1A-tru,tru,1A,Average,1A-3,,Monod-Becquelin-1975;Guirardello-1999b;Guirardello-1992,1
+1A-dni,dni,1A,Small,1A-1,,van-der-Stap-1966;Bromley-1961,1
+1A-nen,nen,1A,Moderately large,1A-4,,Tereshchenko-1966a;Hajdu-1963;Katz-1975a;Ristinen-1968;Ristinen-1965;Decsy-1966,1
+1A-urk,urk,1A,Moderately small,1A-2,,Kakumasu-1986,1
+1A-coo,coo,1A,Large,1A-5,,Zenk-1990,1
+1A-cre,cre,1A,Small,1A-1,,Vinay-1992;Dahlstrom-1991,1
+1A-nht,nht,1A,Moderately small,1A-2,,Tuggy-1979,1
+1A-yim,yim,1A,Small,1A-1,,Foley-1991,1
+1A-ika,ika,1A,Moderately small,1A-2,,Tracy-and-Tracy-1973;Frank-1990,1
+1A-kse,kse,1A,Moderately small,1A-2,,Williamson-1967;Prost-1956,1
+1A-mun,mun,1A,Moderately large,1A-4,,Sinha-1975;Gumperz-and-Bilibiri-1957;Pinnow-1959,1
+1A-yid,yid,1A,Small,1A-1,,Dixon-1977a,1
+1A-krk,krk,1A,Moderately small,1A-2,,Bright-1957,1
+1A-tab,tab,1A,Moderately small,1A-2,,Bowden-1997a;Bowden-and-Hajek-1999,1
+1A-aco,aco,1A,Large,1A-5,,Miller-1966,1
+1A-pau,pau,1A,Average,1A-3,,Chapman-and-Derbyshire-1991;Chapman-1981,1
+1A-arp,arp,1A,Moderately small,1A-2,,Conrad-and-Wogiga-1991,1
+1A-ond,ond,1A,Small,1A-1,,Michelson-1988;Abbott-2000,1
+1A-asm,asm,1A,Small,1A-1,,Voorhoeve-1965,1
+1A-ewe,ewe,1A,Moderately large,1A-4,,Pasch-1995,1
+1A-grb,grb,1A,Average,1A-3,,Innes-1966,1
+1A-hmo,hmo,1A,Large,1A-5,,Purnell-1972;Wang-1985;Smalley-1976;Lyman-1974;Wang-1983;Harriehausen-1990,1
+1A-khs,khs,1A,Average,1A-3,,Rabel-1961,1
+1A-khm,khm,1A,Average,1A-3,,Jacob-1968;Huffman-1970a;Huffman-1970b;Ehrman-1972b,1
+1A-kio,kio,1A,Average,1A-3,,Sivertsen-1956;Watkins-1984,1
+1A-wic,wic,1A,Average,1A-3,,Rood-1976,1
+1A-juh,juh,1A,Large,1A-5,,Dickens-1994;Snyman-1975;Snyman-1970,1
+1A-klv,klv,1A,Average,1A-3,,Senft-1986,1
+1A-nug,nug,1A,Average,1A-3,,Heath-1984;Hughes-and-Leeding-1971,1
+1A-irq,irq,1A,Moderately large,1A-4,,Nordbustad-1988;Mous-1993;Whiteley-1958;Maghway-1995,1
+1A-kew,kew,1A,Moderately small,1A-2,,Franklin-and-Franklin-1962,1
+1A-snm,snm,1A,Small,1A-1,,Borgman-1990;Aikhenvald-and-Dixon-1999,1
+1A-shk,shk,1A,Moderately small,1A-2,,Valenzuela-et-al-2001;Loriot-et-al-1993,1
+1A-epe,epe,1A,Moderately small,1A-2,,Harms-1984;Harms-1985;Harms-1994,1
+1A-ket,ket,1A,Moderately small,1A-2,,Krejnovich-1968a;Vajda-2000;Feev-1998;Dulzon-1968,1
+1A-koa,koa,1A,Small,1A-1,,Rising-1992;Haas-1944,1
+1A-luv,luv,1A,Moderately small,1A-2,,Horton-1949,1
+1A-san,san,1A,Moderately large,1A-4,,Samarin-1967a;Samarin-1967b,1
+1A-bag,bag,1A,Moderately large,1A-4,,Stevenson-1969,1
+1A-hzb,hzb,1A,Large,1A-5,,van-den-Berg-1995,1
+1A-ing,ing,1A,Large,1A-5,,Nichols-1994b,1
+1A-mau,mau,1A,Moderately small,1A-2,,Capell-and-Hinch-1970,1
+1A-kfe,kfe,1A,Moderately small,1A-2,,Rennison-1997,1
+1A-ram,ram,1A,Moderately small,1A-2,,Grinevald-1988,1
+1A-wch,wch,1A,Average,1A-3,,Tovar-1981;Hunt-1940;Vinas-Urquiza-1974,1
+1A-yag,yag,1A,Small,1A-1,,Payne-1985,1
+1A-niv,niv,1A,Moderately large,1A-4,,Krejnovich-1937;Gruzdeva-1998,1
+1A-apu,apu,1A,Small,1A-1,,Facundes-2000,1
+1A-bma,bma,1A,Moderately large,1A-4,,Penchoen-1973b;Abdel-Massih-1971,1
+1A-wra,wra,1A,Small,1A-1,,de-Goeje-1930;Osborn-1966;Romero-Figueroa-1997;Vaquero-1965,1
+1A-imo,imo,1A,Small,1A-1,,Seiler-1985,1
+1A-awp,awp,1A,Small,1A-1,,Curnow-1997,1
+1A-kob,kob,1A,Average,1A-3,,Davies-1980;Davies-1981b,1
+1A-lat,lat,1A,Moderately large,1A-4,,Mathiassen-1997,1
+1A-mar,mar,1A,Average,1A-3,,Gordon-1986,1
+1A-ala,ala,1A,Moderately small,1A-2,,Bruce-1984,1
+1A-goo,goo,1A,Average,1A-3,,McGregor-1990,1
+1A-kut,kut,1A,Moderately large,1A-4,,Morgan-1991;Garvin-1948a,1
+1A-mxc,mxc,1A,Moderately small,1A-2,,Macaulay-1996,1
+1A-lav,lav,1A,Moderately small,1A-2,,Terrill-1999,1
+1A-rap,rap,1A,Small,1A-1,,Du-Feu-1996,1
+1A-ain,ain,1A,Small,1A-1,,Patrie-1982;Simeon-1969,1
+1A-jak,jak,1A,Moderately large,1A-4,,Day-1973;Craig-1977,1
+1A-lkt,lkt,1A,Average,1A-3,,Carter-1974,1
+1A-mrt,mrt,1A,Average,1A-3,,Dench-1995,1
+1A-prh,prh,1A,Small,1A-1,,Everett-1986,1
+1A-war,war,1A,Moderately small,1A-2,,Everett-and-Kern-1997;MacEachern-et-al-1997,1
+1A-gua,gua,1A,Moderately small,1A-2,,Lunt-1973;Uldall-1956;Gregores-and-Suarez-1967,1
+1A-kho,kho,1A,Moderately large,1A-4,,Vossen-1997;Hagman-1977;Ladefoged-and-Traill-1984,1
+1A-mei,mei,1A,Average,1A-3,,Bhat-and-Ningomba-1997;Chelliah-1997,1
+1A-brm,brm,1A,Moderately large,1A-4,,Watkins-2001;Okell-1969,1
+1A-kro,kro,1A,Average,1A-3,,Reh-1985,1
+1A-myi,myi,1A,Moderately small,1A-2,,Merlan-1982,1
+1A-tiw,tiw,1A,Average,1A-3,,Osborne-1974;Lee-1983;Anderson-and-Maddieson-1994;Lee-1984,1
+1A-knr,knr,1A,Average,1A-3,,Awobuluyi-1971;Hutchison-1981;Lukas-1937,1
+1A-kay,kay,1A,Moderately small,1A-2,,Evans-1995,1
+1A-map,map,1A,Average,1A-3,,Smeets-1989,1
+1A-yor,yor,1A,Moderately small,1A-2,,Bamgbose-1966,1
+1A-yko,yko,1A,Average,1A-3,,Maslova-1999,1
+1A-may,may,1A,Small,1A-1,,Dol-1999,1
+1A-tuk,tuk,1A,Average,1A-3,,Donohue-1999c;Donohue-1999a,1
+1A-bur,bur,1A,Large,1A-5,,Anderson-1997b;Morgenstierne-1945,1
+1A-cha,cha,1A,Average,1A-3,,Seiden-1960;Topping-1973,1
+1A-chk,chk,1A,Moderately small,1A-2,,Krause-1980;Skorik-1968;Skorik-1961,1
+1A-fij,fij,1A,Average,1A-3,,Dixon-1988,1
+1A-lan,lan,1A,Moderately small,1A-2,,Okello-1975,1
+1A-orh,orh,1A,Moderately large,1A-4,,Owens-1985,1
+1A-tha,tha,1A,Average,1A-3,,Noss-1964;Kruatrachue-1960;Abramson-1962;Noss-1954;Kalaya-and-Abramson-1999;Haas-1964,1
+1A-yaq,yaq,1A,Moderately small,1A-2,,Kurath-and-Spicer-1947;Dedrick-and-Casad-1999,1
+1A-zul,zul,1A,Moderately large,1A-4,,Doke-1926;Canonici-1989;Doke-1961;Poulos-and-Bosch-1997;Ziervogel-et-al-1981;Poulos-and-Msimang-1998,1
+1A-sla,sla,1A,Moderately large,1A-4,,Rice-1978;Rice-1989;Rice-1976,1
+1A-aeg,aeg,1A,Moderately large,1A-4,,Tomiche-1964;Kennedy-1960;Mitchell-1962,1
+1A-grw,grw,1A,Average,1A-3,,Rischel-1974,1
+1A-hix,hix,1A,Moderately small,1A-2,,Derbyshire-1985,1
+1A-swa,swa,1A,Moderately large,1A-4,,Polome-nd,1
+1A-vie,vie,1A,Average,1A-3,,Nguyen-1974a;Emeneau-1951;Nguyen-1990;Thompson-1965,1
+1A-hin,hin,1A,Large,1A-5,,Ohala-1999;Ohala-1983;Kelkar-1968,1
+1A-ckr,ckr,1A,Small,1A-1,,Popjes-and-Popjes-1986,1
+1A-tag,tag,1A,Moderately small,1A-2,,Bloomfield-1917;Schachter-and-Otanes-1972,1
+1A-geo,geo,1A,Moderately large,1A-4,,Vogt-1958;Vogt-1938;Hewitt-1995;Vogt-1971;Tschenkeli-1958;Robins-and-Waterson-1952;Selmer-1935;Neisser-1953,1
+1A-knd,knd,1A,Moderately large,1A-4,,Steever-1998b;Sridhar-1990;Upadhyaya-1972,1
+1A-kha,kha,1A,Average,1A-3,,Luvsanvandan-1964;Street-1963;Hangin-1968;Svantesson-1985,1
+1A-mal,mal,1A,Moderately large,1A-4,,Dyen-1971b;Dahl-1952,1
+1A-sup,sup,1A,Average,1A-3,,Carlson-1994,1
+1A-hau,hau,1A,Moderately large,1A-4,,Newman-2000;Schuh-and-Bagari-1999,1
+1A-mao,mao,1A,Small,1A-1,,Bauer-1993,1
+1A-bsq,bsq,1A,Average,1A-3,,Saltarelli-et-al-1988,1
+1A-abk,abk,1A,Large,1A-5,,Hewitt-1979,1
+1A-eve,eve,1A,Moderately small,1A-2,,Bulatova-and-Grenoble-1999;Nedjalkov-1997,1
+1A-kor,kor,1A,Average,1A-3,,Martin-1951;Kim-1986;Cho-1967;Martin-and-Lee-1969;Kim-1972;Martin-1954;Lee-1999,1
+1A-prs,prs,1A,Average,1A-3,,Obolensky-et-al-1963;Majidi-and-Ternes-1999,1
+1A-ame,ame,1A,Moderately small,1A-2,,Roberts-1987,1
+1A-ger,ger,1A,Average,1A-3,,Wangler-1972;Moulton-1962;Kohler-1999,1
+1A-grk,grk,1A,Average,1A-3,,Householder-et-al-1964,1
+1A-lez,lez,1A,Large,1A-5,,Kodzasov-1990a;Haspelmath-1993,1
+1A-jpn,jpn,1A,Moderately small,1A-2,,Martin-1952;Bloch-1950;Shibatani-1990;Jorden-1963,1
+1A-mnd,mnd,1A,Average,1A-3,,Chao-1968;Cheng-1973a;Hanyu-1960;Dow-1972,1
+1A-hun,hun,1A,Moderately large,1A-4,,Banhidi-et-al-1965;Hall-1944;Szende-1999,1
+1A-ind,ind,1A,Average,1A-3,,Alwi-et-al-1998,1
+1A-fin,fin,1A,Moderately small,1A-2,,Wiik-1965;Lehtinen-1970;Harms-1964,1
+1A-rus,rus,1A,Moderately large,1A-4,,Halle-1959;Jones-and-Ward-1969,1
+1A-spa,spa,1A,Average,1A-3,,Navarro-1961;Harris-1969a;Saporta-and-Contreras-1962,1
+1A-tur,tur,1A,Average,1A-3,,Zimmer-and-Orgun-1999,1
+1A-fre,fre,1A,Average,1A-3,,Fougeron-and-Smith-1999;Sten-1963,1
+1A-eng,eng,1A,Average,1A-3,,Gimson-1970,1
+1A-ndy,ndy,1A,Moderately small,1A-2,,Huttar-and-Huttar-1972;Huttar-and-Huttar-1994,1
+2A-cve,cve,2A,Average (5-6),2A-2,,Thurman-1970,2
+2A-nbk,nbk,2A,Large (7-14),2A-3,,Wurm-1972b,2
+2A-ach,ach,2A,Average (5-6),2A-2,,Susnik-1974,2
+2A-aiz,aiz,2A,Large (7-14),2A-3,,Herault-1971,2
+2A-brb,brb,2A,Large (7-14),2A-3,,Welmers-1952a,2
+2A-koh,koh,2A,Large (7-14),2A-3,,Cook-1969b,2
+2A-mrn,mrn,2A,Small (2-4),2A-1,,McKaughan-and-Macaraya-1967;McKaughan-1958,2
+2A-mxm,mxm,2A,Average (5-6),2A-2,,Hunter-and-Pike-1969,2
+2A-sab,sab,2A,Large (7-14),2A-3,,Clayre-1973,2
+2A-tks,tks,2A,Large (7-14),2A-3,,Paulian-1975,2
+2A-wdo,wdo,2A,Small (2-4),2A-1,,Douglas-1964;Douglas-1955,2
+2A-wuc,wuc,2A,Large (7-14),2A-3,,Chao-1970,2
+2A-ald,ald,2A,Large (7-14),2A-3,,Duponchel-1971;Dumestre-and-Duponchel-1971,2
+2A-bki,bki,2A,Large (7-14),2A-3,,Wheatley-1969;Wheatley-1973,2
+2A-brd,brd,2A,Small (2-4),2A-1,,Metcalfe-1971,2
+2A-bee,bee,2A,Average (5-6),2A-2,,Jacquot-1981;Jacquot-1962,2
+2A-bbf,bbf,2A,Large (7-14),2A-3,,Morse-1976;Bris-and-Prost-1981,2
+2A-brw,brw,2A,Large (7-14),2A-3,,Thongkum-1979,2
+2A-cad,cad,2A,Small (2-4),2A-1,,Chafe-1979;Chafe-1976,2
+2A-dad,dad,2A,Average (5-6),2A-2,,MacDonald-1973,2
+2A-ddf,ddf,2A,Average (5-6),2A-2,,Thelwall-1981;Tucker-and-Bryan-1966,2
+2A-dnw,dnw,2A,Large (7-14),2A-3,,Fedry-1977,2
+2A-dar,dar,2A,Average (5-6),2A-2,,Kotapish-and-Kotapish-1975;Kotapish-and-Kotapish-1973,2
+2A-det,det,2A,Average (5-6),2A-2,,Vossen-1997,2
+2A-dts,dts,2A,Large (7-14),2A-3,,Bendor-Samuel-et-al-1989;Plungian-1995,2
+2A-fuz,fuz,2A,Large (7-14),2A-3,,Chen-and-Norman-1965;Chan-1985;Norman-1988;Hanyu-1960,2
+2A-gla,gla,2A,Large (7-14),2A-3,,He-1983;He-1981,2
+2A-had,had,2A,Average (5-6),2A-2,,Tucker-et-al-1977;Sands-et-al-1996,2
+2A-hba,hba,2A,Average (5-6),2A-2,,Bolozky-1978;Bolozky-1997,2
+2A-ird,ird,2A,Average (5-6),2A-2,,Ni-Chasaide-1999;O-Dochartaigh-1992,2
+2A-iso,iso,2A,Large (7-14),2A-3,,Donwa-1982,2
+2A-ivs,ivs,2A,Small (2-4),2A-1,,Heye-and-Hidalgo-1967;Cottle-and-Cottle-1958;Hidalgo-and-Hidalgo-1971,2
+2A-jpr,jpr,2A,Average (5-6),2A-2,,Durbin-and-Seijas-1972,2
+2A-jom,jom,2A,Large (7-14),2A-3,,Schadeberg-1981a,2
+2A-kzh,kzh,2A,Large (7-14),2A-3,,Zheng-and-Quan-1988,2
+2A-ked,ked,2A,Average (5-6),2A-2,,Korner-1985;Samely-1991,2
+2A-kss,kss,2A,Large (7-14),2A-3,,Childs-1995,2
+2A-kpa,kpa,2A,Average (5-6),2A-2,,Shimizu-1971,2
+2A-lkk,lkk,2A,Average (5-6),2A-2,,Haudricourt-1967;Solnit-1988,2
+2A-lam,lam,2A,Average (5-6),2A-2,,Sachnine-1982,2
+2A-lua,lua,2A,Large (7-14),2A-3,,Boyeldieu-1985,2
+2A-mya,mya,2A,Average (5-6),2A-2,,van-der-Leeden-1993;Remijsen-2001,2
+2A-nkt,nkt,2A,Large (7-14),2A-3,,Diffloth-1984;Thongkum-1984;Thongkum-1982,2
+2A-nyg,nyg,2A,Large (7-14),2A-3,,Heine-1975a,2
+2A-ogb,ogb,2A,Large (7-14),2A-3,,Williamson-1970;Williamson-1972,2
+2A-puk,puk,2A,Large (7-14),2A-3,,Diffloth-1980;Maddieson-and-Ladefoged-1985;Qiu-et-al-1980,2
+2A-phl,phl,2A,Large (7-14),2A-3,,Cooke-et-al-1976,2
+2A-poa,poa,2A,Large (7-14),2A-3,,,2
+2A-rsc,rsc,2A,Average (5-6),2A-2,,Soler-and-Ebneter-1988,2
+2A-rtk,rtk,2A,Average (5-6),2A-2,,Firchow-and-Firchow-1969;Firchow-et-al-1973,2
+2A-scs,scs,2A,Average (5-6),2A-2,,Kert-1971;Hasselbrink-1965,2
+2A-svs,svs,2A,Average (5-6),2A-2,,Todd-1975,2
+2A-sui,sui,2A,Large (7-14),2A-3,,Li-1948,2
+2A-tmp,tmp,2A,Large (7-14),2A-3,,Bergman-et-al-1969,2
+2A-tok,tok,2A,Average (5-6),2A-2,,Robinson-1976,2
+2A-tza,tza,2A,Average (5-6),2A-2,,Kaufman-1971,2
+2A-umb,umb,2A,Average (5-6),2A-2,,Schadeberg-1990;Schadeberg-1982,2
+2A-wnt,wnt,2A,Large (7-14),2A-3,,Davis-1969,2
+2A-wps,wps,2A,Small (2-4),2A-1,,Tracy-1972,2
+2A-xia,xia,2A,Average (5-6),2A-2,,Hanyu-1960;Ramsey-1987;Norman-1988,2
+2A-aik,aik,2A,Average (5-6),2A-2,,Aikhenvald-and-Dixon-1999[362-363];Hanke-1956,2
+2A-akw,akw,2A,Large (7-14),2A-3,,Edwards-1978,2
+2A-aea,aea,2A,Small (2-4),2A-1,,Jacobson-1944;Cho-et-al-1997;Menovshchikov-1968;Bergsland-1956;Rozelle-1997;Bergsland-1994;Bergsland-1959,2
+2A-chu,chu,2A,Small (2-4),2A-1,,Stell-1972,2
+2A-fef,fef,2A,Large (7-14),2A-3,,Hyman-1972,2
+2A-kef,kef,2A,Average (5-6),2A-2,,Fleming-1976,2
+2A-ktk,ktk,2A,Large (7-14),2A-3,,Bouny-1977,2
+2A-lu,lu,2A,Large (7-14),2A-3,,Morev-1978;Li-1964,2
+2A-nap,nap,2A,Average (5-6),2A-2,,Garbell-1965,2
+2A-orm,orm,2A,Average (5-6),2A-2,,Efimov-1986,2
+2A-snd,snd,2A,Large (7-14),2A-3,,Welmers-1950,2
+2A-wrs,wrs,2A,Large (7-14),2A-3,,Brown-1988b,2
+2A-byu,byu,2A,Small (2-4),2A-1,,Cunningham-1969,2
+2A-bno,bno,2A,Average (5-6),2A-2,,Stolte-and-Stolte-1971,2
+2A-bis,bis,2A,Average (5-6),2A-2,,Naden-1973,2
+2A-cac,cac,2A,Average (5-6),2A-2,,Cathcart-1979;Anderton-1989,2
+2A-iwm,iwm,2A,Average (5-6),2A-2,,Laycock-1965b,2
+2A-jeh,jeh,2A,Large (7-14),2A-3,,Gradin-and-Gradin-1979;Gradin-1966;Cohen-1966,2
+2A-kek,kek,2A,Average (5-6),2A-2,,Freeze-1975;Haeseriju-1966,2
+2A-kul,kul,2A,Average (5-6),2A-2,,Allan-1976a,2
+2A-max,max,2A,Average (5-6),2A-2,,Gudschinsky-et-al-1970,2
+2A-mtp,mtp,2A,Large (7-14),2A-3,,Crawford-1963;Schoenhals-and-Schoenhals-1965,2
+2A-toa,toa,2A,Average (5-6),2A-2,,Brown-1973,2
+2A-yey,yey,2A,Average (5-6),2A-2,,Gowlett-1997,2
+2A-agh,agh,2A,Large (7-14),2A-3,,Hyman-1979,2
+2A-aht,aht,2A,Average (5-6),2A-2,,Kari-1990,2
+2A-eya,eya,2A,Small (2-4),2A-1,,Krauss-1965,2
+2A-kly,kly,2A,Average (5-6),2A-2,,Wurm-1972a;Kennedy-1981,2
+2A-kot,kot,2A,Average (5-6),2A-2,,Emeneau-1944,2
+2A-lus,lus,2A,Small (2-4),2A-1,,Bates-et-al-1994,2
+2A-nob,nob,2A,Average (5-6),2A-2,,Bell-1971;Werner-1987;Bell-1968,2
+2A-pac,pac,2A,Large (7-14),2A-3,,Watson-1964,2
+2A-qco,qco,2A,Average (5-6),2A-2,,Lastra-1968,2
+2A-ror,ror,2A,Average (5-6),2A-2,,Bluhme-1970;Davis-1974,2
+2A-soq,soq,2A,Average (5-6),2A-2,,Johnstone-1975;Leslau-1938,2
+2A-ant,ant,2A,Average (5-6),2A-2,,Huisman-1973;Huisman-et-al-1981;Huisman-and-Lloyd-1981,2
+2A-bng,bng,2A,Average (5-6),2A-2,,Parker-and-Parker-1974,2
+2A-cck,cck,2A,Small (2-4),2A-1,,Munro-et-al-2002;Gordon-et-al-2000,2
+2A-cof,cof,2A,Average (5-6),2A-2,,Borman-1962,2
+2A-dah,dah,2A,Average (5-6),2A-2,,Nurse-1986;Maddieson-et-al-1993;Tucker-et-al-1977,2
+2A-eja,eja,2A,Large (7-14),2A-3,,Watters-1981,2
+2A-ghb,ghb,2A,Average (5-6),2A-2,,Kondo-and-Kondo-1967,2
+2A-kal,kal,2A,Average (5-6),2A-2,,Baart-1997,2
+2A-kkn,kkn,2A,Large (7-14),2A-3,,Madtha-1984;Major-1979;Gajendragadkar-1970,2
+2A-kur,kur,2A,Average (5-6),2A-2,,Pinnow-1964;Pfeiffer-1972,2
+2A-sha,sha,2A,Average (5-6),2A-2,,Chan-1980;Cheng-1973b;Chao-1951,2
+2A-tsg,tsg,2A,Small (2-4),2A-1,,Ashley-1963,2
+2A-try,try,2A,Average (5-6),2A-2,,Schlegel-1971;Post-1966,2
+2A-uzn,uzn,2A,Average (5-6),2A-2,,Sjoberg-1962;Sjoberg-1963,2
+2A-adz,adz,2A,Small (2-4),2A-1,,Holzknecht-1973,2
+2A-amz,amz,2A,Large (7-14),2A-3,,Longacre-1966;Bauernschmidt-1965,2
+2A-cil,cil,2A,Average (5-6),2A-2,,de-Schryver-1999,2
+2A-gmb,gmb,2A,Average (5-6),2A-2,,Branks-and-Branks-1973;Caudmont-1954,2
+2A-maz,maz,2A,Small (2-4),2A-1,,Spotts-1953,2
+2A-nax,nax,2A,Large (7-14),2A-3,,Bradley-1975;Jiang-1980;Jiang-1985,2
+2A-pnr,pnr,2A,Large (7-14),2A-3,,Cauty-1978;Cauty-1974b;Cauty-1974a;Payne-1990b,2
+2A-sdh,sdh,2A,Large (7-14),2A-3,,Nihalani-1999,2
+2A-tpa,tpa,2A,Small (2-4),2A-1,,Aschmann-1946,2
+2A-bet,bet,2A,Large (7-14),2A-3,,Werle-and-Gbalehi-1976,2
+2A-mov,mov,2A,Average (5-6),2A-2,,Judy-and-Judy-1962b;Aikhenvald-and-Dixon-1999,2
+2A-nim,nim,2A,Average (5-6),2A-2,,Anceaux-1965,2
+2A-teh,teh,2A,Small (2-4),2A-1,,Fernandez-Garay-1998,2
+2A-yan,yan,2A,Average (5-6),2A-2,,Sapir-and-Swadesh-1960,2
+2A-yaw,yaw,2A,Average (5-6),2A-2,,Jones-1986b,2
+2A-khr,khr,2A,Average (5-6),2A-2,,Biligiri-1965;Pinnow-1959,2
+2A-mla,mla,2A,Large (7-14),2A-3,,Perrin-and-Hill-1969;Connell-2000,2
+2A-mbb,mbb,2A,Small (2-4),2A-1,,Dixon-1966a;Dixon-1966b,2
+2A-arb,arb,2A,Average (5-6),2A-2,,Rich-1963,2
+2A-awn,awn,2A,Large (7-14),2A-3,,Hetzron-1969;Hetzron-1976,2
+2A-chl,chl,2A,Small (2-4),2A-1,,Kinkade-1963,2
+2A-kla,kla,2A,Large (7-14),2A-3,,Singler-1979,2
+2A-kun,kun,2A,Average (5-6),2A-2,,Baptista-and-Wallin-1974;Sherzer-1983,2
+2A-oca,oca,2A,Average (5-6),2A-2,,Aschmann-1993;Agnew-and-Pike-1957,2
+2A-sba,sba,2A,Average (5-6),2A-2,,Benaissa-1979,2
+2A-irx,irx,2A,Average (5-6),2A-2,,Meader-1967,2
+2A-kad,kad,2A,Average (5-6),2A-2,,Abdalla-1973;Matsushita-1984,2
+2A-sor,sor,2A,Average (5-6),2A-2,,Ramamurti-1986,2
+2A-ycn,ycn,2A,Average (5-6),2A-2,,Schauer-and-Schauer-1967,2
+2A-shs,shs,2A,Small (2-4),2A-1,,Silver-1964;Silver-1966,2
+2A-tso,tso,2A,Average (5-6),2A-2,,Tung-1964;Wright-and-Ladefoged-1994,2
+2A-yct,yct,2A,Average (5-6),2A-2,,Straight-1976,2
+2A-der,der,2A,Average (5-6),2A-2,,Voorhoeve-1971,2
+2A-gan,gan,2A,Large (7-14),2A-3,,Yadav-nd,2
+2A-sdw,sdw,2A,Average (5-6),2A-2,,Tucker-et-al-1977;Elderkin-1982;Dempwolff-1916;Kagaya-1993;Maddieson-et-al-1999,2
+2A-tug,tug,2A,Large (7-14),2A-3,,Prasse-1972;Louali-Reynal-et-al-1997,2
+2A-abm,abm,2A,Small (2-4),2A-1,,Rand-1968,2
+2A-cam,cam,2A,Average (5-6),2A-2,,Mongui-Sanchez-1981;Howard-1972;Howard-1967,2
+2A-hmr,hmr,2A,Average (5-6),2A-2,,Lydall-1976,2
+2A-seb,seb,2A,Average (5-6),2A-2,,Montgomery-1970,2
+2A-yay,yay,2A,Average (5-6),2A-2,,Gedney-1965,2
+2A-bra,bra,2A,Large (7-14),2A-3,,Keller-1976,2
+2A-hak,hak,2A,Average (5-6),2A-2,,Hashimoto-1973,2
+2A-mui,mui,2A,Average (5-6),2A-2,,Walton-and-Walton-1967;Aschmann-1993,2
+2A-nai,nai,2A,Average (5-6),2A-2,,Avrorin-1968,2
+2A-tma,tma,2A,Large (7-14),2A-3,,Tucker-and-Bryan-1966,2
+2A-tmn,tmn,2A,Large (7-14),2A-3,,Tucker-and-Bryan-1966,2
+2A-yny,yny,2A,Small (2-4),2A-1,,Kirton-1967;Huttar-and-Kirton-1981;Kirton-and-Charlie-1978,2
+2A-efi,efi,2A,Large (7-14),2A-3,,Cook-1969a,2
+2A-ga,ga,2A,Large (7-14),2A-3,,Kropp-1987;Berry-nd,2
+2A-ign,ign,2A,Small (2-4),2A-1,,Ott-and-Ott-1967a,2
+2A-mog,mog,2A,Average (5-6),2A-2,,Weiers-1971,2
+2A-mor,mor,2A,Average (5-6),2A-2,,Laycock-1978,2
+2A-woi,woi,2A,Large (7-14),2A-3,,Stokhof-1979,2
+2A-adk,adk,2A,Large (7-14),2A-3,,Landaburu-1979,2
+2A-ful,ful,2A,Large (7-14),2A-3,,Lapenda-1968,2
+2A-ito,ito,2A,Average (5-6),2A-2,,Liccardi-and-Grimes-1968,2
+2A-jav,jav,2A,Large (7-14),2A-3,,Horne-1961;Fagan-1988;Uhlenbeck-1963;Herrfurth-1964,2
+2A-koi,koi,2A,Average (5-6),2A-2,,Dutton-1969;Dutton-1996,2
+2A-mzc,mzc,2A,Average (5-6),2A-2,,Jamieson-1976b;Jamieson-1976a,2
+2A-mba,mba,2A,Large (7-14),2A-3,,Pasch-1986,2
+2A-nnc,nnc,2A,Large (7-14),2A-3,,Radhakrishnan-1981;Das-1977,2
+2A-amo,amo,2A,Large (7-14),2A-3,,Di-Luzio-1972;Anderson-1980,2
+2A-amu,amu,2A,Small (2-4),2A-1,,Wise-1958;Fast-1953,2
+2A-bua,bua,2A,Average (5-6),2A-2,,Glasgow-and-Glasgow-1967,2
+2A-chw,chw,2A,Large (7-14),2A-3,,Edmondson-and-Gregerson-1993;Blood-1967,2
+2A-fas,fas,2A,Average (5-6),2A-2,,Loeweke-and-May-1964,2
+2A-nyi,nyi,2A,Large (7-14),2A-3,,Tucker-and-Bryan-1966;Stevenson-1957,2
+2A-sin,sin,2A,Average (5-6),2A-2,,Wheeler-and-Wheeler-1962,2
+2A-tul,tul,2A,Large (7-14),2A-3,,Bhat-1967,2
+2A-baj,baj,2A,Average (5-6),2A-2,,Verheijen-1986,2
+2A-gds,gds,2A,Small (2-4),2A-1,,Frantz-and-Frantz-1966,2
+2A-igs,igs,2A,Average (5-6),2A-2,,Tucker-and-Bryan-1966;Crewe-1975,2
+2A-kpe,kpe,2A,Large (7-14),2A-3,,Hyman-1973;Welmers-1973;Welmers-1962,2
+2A-tic,tic,2A,Average (5-6),2A-2,,Anderson-1959;Anderson-1962,2
+2A-wry,wry,2A,Average (5-6),2A-2,,Harvey-1986,2
+2A-wmu,wmu,2A,Average (5-6),2A-2,,Sayers-and-Godfrey-1964;McConnel-1945,2
+2A-paw,paw,2A,Average (5-6),2A-2,,MacDonald-1973;Trefry-1972,2
+2A-pec,pec,2A,Average (5-6),2A-2,,Holt-1986;Holt-1999b,2
+2A-twn,twn,2A,Average (5-6),2A-2,,Trager-1971;Hoijer-and-Dozier-1949,2
+2A-kom,kom,2A,Large (7-14),2A-3,,Tucker-and-Bryan-1966,2
+2A-kmp,kmp,2A,Average (5-6),2A-2,,Pence-1966,2
+2A-llm,llm,2A,Large (7-14),2A-3,,Hoftmann-1971,2
+2A-nis,nis,2A,Large (7-14),2A-3,,Namkung-1996;Ray-1967,2
+2A-rut,rut,2A,Average (5-6),2A-2,,Dzhejranishvili-1967;Ibragimov-1978;Kodzasov-1990b,2
+2A-yar,yar,2A,Average (5-6),2A-2,,Weimer-and-Weimer-1972,2
+2A-yes,yes,2A,Small (2-4),2A-1,,Foreman-and-Marten-1973,2
+2A-yus,yus,2A,Small (2-4),2A-1,,Krauss-1975,2
+2A-cti,cti,2A,Average (5-6),2A-2,,Henderson-1965,2
+2A-xoo,xoo,2A,Average (5-6),2A-2,,Traill-1994;Traill-1985,2
+2A-yul,yul,2A,Large (7-14),2A-3,,Boyeldieu-1987,2
+2A-kng,kng,2A,Large (7-14),2A-3,,Kindell-1972;Wiesemann-1972;Henry-1935,2
+2A-ndt,ndt,2A,Large (7-14),2A-3,,Gueye-1986,2
+2A-nga,nga,2A,Large (7-14),2A-3,,Castren-1966;Tereshchenko-1966c;Tereshchenko-1979,2
+2A-ytu,ytu,2A,Average (5-6),2A-2,,Krejnovich-1958;Krejnovich-1968c,2
+2A-amc,amc,2A,Small (2-4),2A-1,,Osborn-1948,2
+2A-bai,bai,2A,Large (7-14),2A-3,,Dell-1981,2
+2A-cay,cay,2A,Small (2-4),2A-1,,Lindskoog-and-Brend-1962,2
+2A-chp,chp,2A,Average (5-6),2A-2,,Li-1932;Li-1946;Li-1933,2
+2A-kry,kry,2A,Average (5-6),2A-2,,Zhukova-1980,2
+2A-acm,acm,2A,Average (5-6),2A-2,,Olmsted-1964;Olmsted-1966,2
+2A-anc,anc,2A,Large (7-14),2A-3,,Burquest-1971,2
+2A-api,api,2A,Large (7-14),2A-3,,Burgess-and-Ham-1968,2
+2A-bod,bod,2A,Average (5-6),2A-2,,Bhat-1968,2
+2A-chq,chq,2A,Large (7-14),2A-3,,Robbins-1961;Robbins-1968,2
+2A-dan,dan,2A,Large (7-14),2A-3,,Bearth-and-Zemp-1967,2
+2A-diz,diz,2A,Average (5-6),2A-2,,Allan-1976b,2
+2A-irr,irr,2A,Large (7-14),2A-3,,Voorhoeve-1989,2
