@@ -5,27 +5,14 @@
 
 ## Installation
 
-### From CRAN
-
 ```r
-install.packages("ritwals")
-```
-
-### With devtools
-
-```r
-install.packages("devtools")
+install.packages("devtools") # if you do not have devtools
 devtools::install_github("hkauhanen/ritwals")
 ```
 
-
-## Usage
-
-See [here](http://henr.in/code/ritwals) for some examples of use.
-
 ## Documentation
 
-The full documentation is available on [CRAN](FIXME).
+The full documentation is available [here as a PDF](ritwals.pdf).
 
 
 ## Legal
