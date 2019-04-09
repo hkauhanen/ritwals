@@ -1,6 +1,6 @@
 Package: ritwals
 Title: R Interface to WALS
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Author: Henri Kauhanen <henri@henr.in>
 Maintainer: Henri Kauhanen <henri@henr.in>
 Description: Provides an intuitive R interface to the World Atlas of Language Structures (WALS). The current version makes available the 2014 version of WALS Online (the most recent version as of this writing).
