@@ -4,27 +4,31 @@
 \alias{nearest_geo_neighbours_discoidal}
 \title{Nearest Geographical Neighbours (Discoidal)}
 \usage{
-nearest_geo_neighbours_discoidal(id, radius = 1000,
-  languages = WALS_languages)
+nearest_geo_neighbours_discoidal(id, radius, data = WALS)
 }
 \arguments{
 \item{id}{Language's WALS ID}
 
-\item{radius}{Radius of neighbourhood disc in kilometres}
+\item{radius}{Radius of disc in km}
 
-\item{languages}{Set of languages to consider; by default all}
+\item{data}{Dataset to consider; by default the entire \code{\link{WALS}}}
 }
 \description{
 Return the neighbours of a language residing within a disc of a specified
 radius from that language.
 }
 \details{
-WALS defines the geographical representation of a language as a point
-in latitude-longitude space.
-Pairwise geographical distance between languages is defined as the 
-great-circle distance (see \code{\link{great_circle_distance}}).
-By default (\code{languages = WALS_languages}), all languages in the WALS
-atlas will be considered in the computation of the k nearest neighbours.
-By supplying a non-default \code{languages} argument, it is possible to
+Computed using \code{\link{great_circle_distance}}.
+By default (\code{data = WALS}), all languages in the WALS
+atlas will be considered in the computation of the nearest neighbours.
+By supplying a non-default \code{data} argument, it is possible to
 override this behaviour, e.g. to supply only a subset of the languages.
+}
+\examples{
+# Neighbours of Finnish within 1000 km:
+nearest_geo_neighbours_discoidal("fin", radius=1000)
+
+# Neighbours of Finnish within 1000 km, within the Uralic family:
+nearest_geo_neighbours_discoidal("fin", radius=1000,
+  data=filter_WALS(family=="Uralic"))
 }

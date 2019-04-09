@@ -4,25 +4,39 @@
 \alias{nearest_geo_neighbours}
 \title{Nearest Geographical Neighbours}
 \usage{
-nearest_geo_neighbours(id, k = 1, languages = WALS_languages)
+nearest_geo_neighbours(id, k, data = WALS)
 }
 \arguments{
 \item{id}{Language's WALS ID}
 
 \item{k}{How many neighbours to return}
 
-\item{languages}{Set of languages to consider; by default all}
+\item{data}{Dataset to consider; by default the entire \code{\link{WALS}}}
 }
 \description{
 Return the \emph{k} nearest geographical neighbours of a language.
 }
 \details{
-WALS defines the geographical representation of a language as a point
-in latitude-longitude space.
-Pairwise geographical distance between languages is defined as the 
-great-circle distance (see \code{\link{great_circle_distance}}).
-By default (\code{languages = WALS_languages}), all languages in the WALS
-atlas will be considered in the computation of the k nearest neighbours.
-By supplying a non-default \code{languages} argument, it is possible to
+Computed using \code{\link{great_circle_distance}}.
+By default (\code{data = WALS}), all languages in the WALS
+atlas will be considered in the computation of the nearest neighbours.
+By supplying a non-default \code{data} argument, it is possible to
 override this behaviour, e.g. to supply only a subset of the languages.
+
+If the language does not have as many as \emph{k} neighbours (e.g. because
+of a strict filtering by \code{data}), the neighbours that \emph{are}
+found are returned with a warning.
+}
+\examples{
+# 10 nearest neighbours of Egyptian Arabic:
+nearest_geo_neighbours("aeg", k=10)
+
+# 10 nearest neighbours of Egyptian Arabic among those languages for
+# which feature 13A is attested:
+nearest_geo_neighbours("aeg", k=10, data=filter_WALS(feature_ID=="13A"))
+
+# 10 nearest neighbours of Egyptian Arabic among those languages for
+# which feature 13A is attested, among the Afro-Asiatic family:
+nearest_geo_neighbours("aeg", k=10,
+  data=filter_WALS(feature_ID=="13A" & family=="Afro-Asiatic"))
 }

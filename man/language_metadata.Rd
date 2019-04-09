@@ -22,8 +22,8 @@ A dataframe with the following columns:
 \item{\code{family}}{Language's family}
 \item{\code{macroarea}}{Language's macroarea}
 \item{\code{countrycodes}}{Country codes associated with the language}
-\item{\code{in_WALS_100_sample}}{Boolean flag; set to \code{TRUE} if language is included in the WALS 100 sample}
-\item{\code{in_WALS_200_sample}}{Boolean flag; set to \code{TRUE} if language is included in the WALS 200 sample}
+\item{\code{in_WALS_100}}{Boolean flag: \code{TRUE} if language is included in the WALS 100 sample}
+\item{\code{in_WALS_200}}{Boolean flag: \code{TRUE} if language is included in the WALS 200 sample}
 }
 }
 \description{

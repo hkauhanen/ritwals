@@ -3,11 +3,12 @@ Title: R Interface to WALS
 Version: 0.0.0.9000
 Author: Henri Kauhanen <henri@henr.in>
 Maintainer: Henri Kauhanen <henri@henr.in>
-Description: Provides an intuitive R interface to the World Atlas of Language Structures. The current version makes available the 2014 version of WALS Online (the most recent version as of this writing).
-License: GPL-3
-Disclaimer: Portions of this package constitute a derivative work of the World Atlas of  Language Structures (WALS), originally distributed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-Copyright: Dryer, Matthew S. & Haspelmath, Martin (eds.) 2013. The World Atlas of Language Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. http://wals.info.
-Changes: Semantically, the WALS has not been changed upon incorporation into this software package. What has been done is to collate all the various data files WALS provides (on languages, on features, on geographical information...) into a single data frame that supplies the entire atlas in one place, and enhance this with functions that assist in accessing the data in the atlas.
+Description: Provides an intuitive R interface to the World Atlas of Language Structures (WALS). The current version makes available the 2014 version of WALS Online (the most recent version as of this writing).
+Depends: R (>= 2.10)
+License: GPL-3 | file LICENSE
+Disclaimer: Portions of this package constitute a derivative work of the World Atlas of  Language Structures (Dryer & Haspelmath 2013).
+Changes: Semantically, the WALS has not been changed upon incorporation into this software package. What has been done is to collate all the various data files WALS provides (on languages, on features, on geographical information...) into a single data frame that supplies the entire atlas in one place, and enhance this with functions that assist in accessing the atlas data.
+Reference: Dryer, Matthew S. & Haspelmath, Martin (eds.) 2013. The World Atlas of Language Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology. http://wals.info.
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1

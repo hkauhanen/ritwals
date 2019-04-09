@@ -16,6 +16,16 @@ Calculates the great-circle distance between two languages as determined
 by their WALS latitude-longitude coordinates.
 }
 \details{
-Calculation is by the haversine formula assuming a perfectly spherical 
-Earth of radius 6,371 km.
+WALS defines the geographical representation of a language as a point
+in latitude-longitude space.
+Calculation of great-circle distance is by the haversine formula assuming 
+a perfectly spherical Earth of radius 6,371 km.
+}
+\examples{
+a <- great_circle_distance("fre", "ger")
+b <- great_circle_distance("ger", "rus")
+c <- great_circle_distance("fre", "rus")
+if (a + b <= c) {
+  print("The triangle inequality works!")
+}
 }

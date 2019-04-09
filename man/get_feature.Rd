@@ -2,16 +2,22 @@
 % Please edit documentation in R/WALS.R
 \name{get_feature}
 \alias{get_feature}
-\title{Get WALS Feature}
+\title{Get Feature}
 \usage{
-get_feature(id)
+get_feature(id, data = WALS)
 }
 \arguments{
-\item{id}{Feature's WALS ID.}
+\item{id}{Feature's WALS ID}
+
+\item{data}{Optionally, a data frame (such as a subset of \code{\link{WALS}})}
 }
 \value{
-The portion of the \code{\link{WALS}} dataframe pertaining to this feature.
+A data frame
 }
 \description{
-Returns a dataframe containing the WALS coverage of a feature.
+Return the representation of a feature in WALS.
+}
+\details{
+Returns the relevant portion of the \code{\link{WALS}} data frame.
+Feature values and value IDs are returned as factors.
 }

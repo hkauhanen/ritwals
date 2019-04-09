@@ -4,65 +4,75 @@
 #'
 #' @name WALS
 #' @docType data
-#' @format A data frame with 76465 rows and 20 variables:
+#' @format A data frame of 76465 rows (each row representing one language-feature combination) and 20 variables:
 #' \describe{
-#' \item{\code{combined_ID}}{}
-#' \item{\code{language_ID}}{}
-#' \item{\code{feature_ID}}{}
-#' \item{\code{value_ID}}{}
-#' \item{\code{code_ID}}{}
-#' \item{\code{language}}{}
-#' \item{\code{feature}}{}
-#' \item{\code{value}}{}
-#' \item{\code{iso_code}}{}
-#' \item{\code{glottocode}}{}
-#' \item{\code{latitude}}{}
-#' \item{\code{longitude}}{}
-#' \item{\code{genus}}{}
-#' \item{\code{family}}{}
-#' \item{\code{macroarea}}{}
-#' \item{\code{countrycodes}}{}
-#' \item{\code{in_WALS_100_sample}}{}
-#' \item{\code{in_WALS_200_sample}}{}
-#' \item{\code{source}}{}
-#' \item{\code{contributors}}{}
+#' \item{\code{combined_ID}}{Identifier combining \code{feature_ID} and \code{language_ID}; identifies a unique row in the data frame}
+#' \item{\code{feature_ID}}{Feature ID}
+#' \item{\code{feature}}{Feature name}
+#' \item{\code{value_ID}}{Value ID}
+#' \item{\code{value}}{Value name}
+#' \item{\code{code_ID}}{Identifier combining \code{feature_ID} and \code{value_ID}}
+#' \item{\code{language_ID}}{Language ID}
+#' \item{\code{iso_code}}{Language's ISO code}
+#' \item{\code{glottocode}}{Language's Glottolog code}
+#' \item{\code{language}}{Language name}
+#' \item{\code{family}}{Language's family}
+#' \item{\code{genus}}{Language's genus}
+#' \item{\code{macroarea}}{Language's macroarea}
+#' \item{\code{countrycodes}}{Country codes associated with language}
+#' \item{\code{latitude}}{Language's latitude in degrees}
+#' \item{\code{longitude}}{Language's longitude in degrees}
+#' \item{\code{in_WALS_100}}{Boolean: \code{TRUE} if language belongs to the WALS 100-language sample}
+#' \item{\code{in_WALS_200}}{Boolean: \code{TRUE} if language belongs to the WALS 200-language sample}
+#' \item{\code{source}}{Information source for this language-feature combination}
+#' \item{\code{contributors}}{WALS contributors for this language-feature combination}
 #' }
 #' @source \url{http://wals.info}
 NULL
 
 
-#' World Atlas of Language Structures (Without Metadata)
+#' WALS Feature Metadata
 #'
-#' The WALS dataset without metadata. It is recommended to use this instead of \code{\link{WALS}} for any computationally intensive operations.
+#' Information about WALS features and their possible values.
 #'
-#' @name WALS_nometa
-#' @format A data frame with 76465 rows and 5 variables:
+#' @name WALS_features
+#' @format A data frame with the following variables:
 #' \describe{
-#' \item{\code{language_ID}}{}
-#' \item{\code{feature_ID}}{}
-#' \item{\code{value_ID}}{}
-#' \item{\code{latitude}}{}
-#' \item{\code{longitude}}{}
+#' \item{\code{feature_ID}}{Feature's WALS ID}
+#' \item{\code{feature}}{Feature's name}
+#' \item{\code{value_ID}}{Value ID}
+#' \item{\code{value}}{Value's name}
+#' \item{\code{code_ID}}{Identifier combining \code{feature_ID} and \code{value_ID}}
 #' }
 #' @source \url{http://wals.info}
 NULL
 
 
-#' World Atlas of Language Structures (100-Language Sample)
+#' WALS Language Metadata
 #'
-#' The WALS 100-language sample: the portion of \code{\link{WALS}} pertaining to languages belonging to this sample.
+#' Information about the languages in WALS.
 #'
-#' @name WALS_100
-#' @format See \code{\link{WALS}}.
+#' @name WALS_languages
+#' @format A data frame of 2679 rows (one row per language) with the following 12 variables:
+#' \describe{
+#' \item{\code{language_ID}}{Language's WALS ID (or 'WALS code')}
+#' \item{\code{iso_code}}{Language's ISO code}
+#' \item{\code{glottocode}}{Language's Glottolog code}
+#' \item{\code{language}}{Language's name}
+#' \item{\code{family}}{Language's family}
+#' \item{\code{genus}}{Language's genus}
+#' \item{\code{macroarea}}{Language's macroarea}
+#' \item{\code{countrycodes}}{Country codes associated with language}
+#' \item{\code{latitude}}{Language's latitude in degrees}
+#' \item{\code{longitude}}{Language's longitude in degrees}
+#' \item{\code{in_WALS_100}}{Boolean: \code{TRUE} if language belongs to the WALS 100-language sample}
+#' \item{\code{in_WALS_200}}{Boolean: \code{TRUE} if language belongs to the WALS 200-language sample}
+#' }
 #' @source \url{http://wals.info}
-NULL
-
-
-#' World Atlas of Language Structures (200-Language Sample)
+#' @examples
+#' # The number of WALS genera:
+#' length(unique(WALS_languages$genus))
 #'
-#' The WALS 200-language sample: the portion of \code{\link{WALS}} pertaining to languages belonging to this sample.
-#'
-#' @name WALS_200
-#' @format See \code{\link{WALS}}.
-#' @source \url{http://wals.info}
+#' # Frequency table of languages per family:
+#' table(WALS_languages$family)
 NULL

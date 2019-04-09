@@ -16,99 +16,136 @@ samplefolder <- "data-raw/samples"
 
 # Function definitions
 
-make_WALS <- function(folder = rawfolder) {
-  feats <- make_WALS_features()
-  feats <- feats[, c("feature_ID", "feature")]
-  langs <- make_WALS_languages()
-  conts <- make_WALS_contributions()
-  hWALS <- read.csv(paste0(folder, "/values.csv"), colClasses="character")
-  names(hWALS) <- c("combined_ID", "language_ID", "feature_ID", "value", "code_ID", "comment", "source", "contribution_ID")
-  hWALS <- merge(hWALS, feats, by="feature_ID")
-  hWALS <- merge(hWALS, langs, by="language_ID")
-  hWALS <- merge(x=hWALS, y=conts, by="contribution_ID")
-  hWALS$value_ID <- str_replace(hWALS$code_ID, pattern="^[^-]*-", replacement="")
-  hWALS$value_ID <- as.numeric(hWALS$value_ID)
-  hWALS <- hWALS[, c("combined_ID", "language_ID", "feature_ID", "value_ID", "code_ID", "language", "feature", "value", "iso_code", "glottocode", "latitude", "longitude", "genus", "family", "macroarea", "countrycodes", "in_WALS_100_sample", "in_WALS_200_sample", "source", "contributors")]
-  hWALS <- hWALS[!duplicated(hWALS), ]
-  hWALS
-}
-
-make_WALS_contributions <- function(folder = rawfolder) {
-  hWALS_contributions <- read.csv(paste0(folder, "/contributions.csv"), colClasses="character")
-  names(hWALS_contributions) <- c("contribution_ID", "name", "description", "contributors")
-  hWALS_contributions <- hWALS_contributions[, c("contribution_ID", "contributors")]
-  hWALS_contributions
-}
-
 make_WALS_languages <- function(folder = langfolder,
                                 samfolder = samplefolder) {
-  hWALS_languages <- read.csv(paste0(folder, "/language.csv"), colClasses="character")
-  hWALS_languages <- hWALS_languages[, c("wals_code", "iso_code", "glottocode", "Name", "latitude", "longitude", "genus", "family", "macroarea", "countrycodes")]
-  names(hWALS_languages) <- c("language_ID", "iso_code", "glottocode", "language", "latitude", "longitude", "genus", "family", "macroarea", "countrycodes")
-  hWALS_languages$latitude <- as.numeric(hWALS_languages$latitude)
-  hWALS_languages$longitude <- as.numeric(hWALS_languages$longitude)
-  sample100 <- read.csv(paste0(samfolder, "/wals_100_sample.csv"), colClasses="character")$language_ID
-  sample200 <- read.csv(paste0(samfolder, "/wals_200_sample.csv"), colClasses="character")$language_ID
-  hWALS_languages$in_WALS_100_sample <- ifelse(hWALS_languages$language_ID %in% sample100, yes=TRUE, no=FALSE)
-  hWALS_languages$in_WALS_200_sample <- ifelse(hWALS_languages$language_ID %in% sample200, yes=TRUE, no=FALSE)
-  hWALS_languages
+  langs <- read.csv(paste0(folder, "/language.csv"),
+                    fileEncoding="UTF-8",
+                    colClasses="character")
+  langs <- langs[, c("wals_code",
+                     "iso_code",
+                     "glottocode",
+                     "Name",
+                     "latitude",
+                     "longitude",
+                     "genus",
+                     "family",
+                     "macroarea",
+                     "countrycodes")]
+  names(langs) <- c("language_ID",
+                    "iso_code",
+                    "glottocode",
+                    "language",
+                    "latitude",
+                    "longitude",
+                    "genus",
+                    "family",
+                    "macroarea",
+                    "countrycodes")
+  sample100 <- read.csv(paste0(samfolder, "/wals_100_sample.csv"), fileEncoding="UTF-8")$language_ID
+  sample200 <- read.csv(paste0(samfolder, "/wals_200_sample.csv"), fileEncoding="UTF-8")$language_ID
+  langs$in_WALS_100 <- ifelse(langs$language_ID %in% sample100, yes=TRUE, no=FALSE)
+  langs$in_WALS_200 <- ifelse(langs$language_ID %in% sample200, yes=TRUE, no=FALSE)
+  langs <- langs[, c("language_ID", "iso_code", "glottocode", "language", "family", "genus", "macroarea", "countrycodes", "latitude", "longitude", "in_WALS_100", "in_WALS_200")]
+  langs$latitude <- as.numeric(langs$latitude)
+  langs$longitude <- as.numeric(langs$longitude)
+  langs
 }
 
+
 make_WALS_features <- function(folder = rawfolder) {
-  hWALS_parameters <- read.csv(paste0(folder, "/parameters.csv"), colClasses="character")
-  hWALS_parameters <- hWALS_parameters[, c("ID", "Name")]
-  hWALS_codes <- read.csv(paste0(folder, "/codes.csv"), colClasses="character")
-  hWALS_features <- NULL
-  for (feat in unique(sort(hWALS_parameters$ID))) {
-    df <- hWALS_codes[hWALS_codes$Parameter_ID == feat, ]
-    df <- df[, c("Parameter_ID", "Name", "Number")]
-    names(df) <- c("ID", "value_description", "value")
-    df$name <- hWALS_parameters[hWALS_parameters$ID == feat, ]$Name
-    df <- data.frame(feature=df$ID, feature_description=df$name, value=df$value, value_description=df$value_description)
-    hWALS_features <- rbind(hWALS_features, df)
-  }
-  for (i in 1:ncol(hWALS_features)) {
-    hWALS_features[,i] <- defactorize(hWALS_features[,i])
-  }
-  names(hWALS_features) <- c("feature_ID", "feature", "value_ID", "value")
-  hWALS_features
+  feats <- read.csv(paste0(folder, "/parameters.csv"),
+                    fileEncoding="UTF-8",
+                    colClasses="character")
+  feats <- feats[, c("ID", "Name")]
+  names(feats) <- c("ID", "feature")
+  codes <- read.csv(paste0(folder, "/codes.csv"),
+                    fileEncoding="UTF-8")
+  codes <- codes[, c("ID", "Parameter_ID", "Name", "Number")]
+  names(codes) <- c("code_ID", "ID", "value", "value_ID")
+  feats <- merge(feats, codes, by="ID")
+  feats <- feats[!duplicated(feats), ]
+  names(feats)[1] <- "feature_ID"
+  feats <- feats[, c("feature_ID", "feature", "value_ID", "value", "code_ID")]
+  feats$value_ID <- as.numeric(feats$value_ID)
+  feats
 }
+
+
+make_WALS_contributions <- function(folder = rawfolder) {
+  conts <- read.csv(paste0(folder, "/contributions.csv"),
+                    fileEncoding="UTF-8",
+                    colClasses="character")
+  conts <- conts[, c("ID", "Contributors")]
+  names(conts) <- c("contribution_ID", "contributors")
+  conts
+}
+
+
+make_WALS <- function(folder = rawfolder) {
+  wals <- read.csv(paste0(folder, "/values.csv"),
+                   fileEncoding="UTF-8",
+                   colClasses="character")
+  names(wals) <- c("combined_ID",
+                   "language_ID",
+                   "feature_ID",
+                   "value",
+                   "code_ID",
+                   "comment",
+                   "source",
+                   "contribution_ID")
+  wals <- wals[, -c(3,4)]
+  langs <- make_WALS_languages()
+  feats <- make_WALS_features()
+  conts <- make_WALS_contributions()
+  wals <- merge(wals, langs, by="language_ID")
+  wals <- merge(wals, feats, by="code_ID")
+  wals <- merge(wals, conts, by="contribution_ID")
+
+  wals <- wals[!duplicated(wals), ]
+  wals <- wals[, c("combined_ID",
+                   "feature_ID",
+                   "feature",
+                   "value_ID",
+                   "value",
+                   "code_ID",
+                   "language_ID",
+                   "iso_code",
+                   "glottocode",
+                   "language",
+                   "family",
+                   "genus",
+                   "macroarea",
+                   "countrycodes",
+                   "latitude",
+                   "longitude",
+                   "in_WALS_100",
+                   "in_WALS_200",
+                   "source",
+                   "contributors")]
+  wals$value <- defactorize(wals$value)
+  wals
+}
+
 
 defactorize <- function(x) {
   levels(x)[as.numeric(x)]
 }
 
-mysave <- function(x) {
-  save(x, file=paste0("data/", deparse(substitute(x)), ".RData"))
-}
 
 
 # Prepare WALS
 
-WALS_contributions <- make_WALS_contributions()
-save(WALS_contributions, file="data/WALS_contributions.RData")
-rm(WALS_contributions)
+compress <- "xz"
 
 WALS_languages <- make_WALS_languages()
-save(WALS_languages, file="data/WALS_languages.RData")
-rm(WALS_languages)
+save(WALS_languages, file="data/WALS_languages.RData", compress=compress)
 
 WALS_features <- make_WALS_features()
-save(WALS_features, file="data/WALS_features.RData")
-rm(WALS_features)
+save(WALS_features, file="data/WALS_features.RData", compress=compress)
 
 WALS <- make_WALS()
-save(WALS, file="data/WALS.RData")
+save(WALS, file="data/WALS.RData", compress=compress)
+
+rm(WALS_languages)
+rm(WALS_features)
 rm(WALS)
-
-WALS_nometa <- WALS[, c("language_ID", "feature_ID", "value_ID", "latitude", "longitude")]
-save(WALS_nometa, file="data/WALS_nometa.RData")
-rm(WALS_nometa)
-
-WALS_100 <- WALS[WALS$in_WALS_100_sample, ]
-save(WALS_100, file="data/WALS_100.RData")
-rm(WALS_100)
-
-WALS_200 <- WALS[WALS$in_WALS_200_sample, ]
-save(WALS_200, file="data/WALS_200.RData")
-rm(WALS_200)
