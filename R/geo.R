@@ -143,12 +143,25 @@ nearest_geo_neighbours_discoidal <- function(id,
 }
 
 
-find_neighbours <- function(id,
+find_neighbours_OLD <- function(id,
                             data) {
   out <- data.frame(lang=data$language_ID, language=data$language, dist=NA)
   for (i in 1:nrow(out)) {
     out[i,]$dist <- great_circle_distance(id, out[i,]$lang)
   }
+  out <- out[out$lang != id, ]
+  out <- out[order(out$dist, decreasing=FALSE), ]
+  names(out) <- c("language_ID", "language", "distance")
+  out
+}
+
+
+find_neighbours <- function(id,
+                            data) {
+  dists <- unlist(lapply(X=data$language_ID, FUN=function(X) great_circle_distance(id, X)))
+  langIDs <- data$language_ID
+  langs <- data$language
+  out <- data.frame(lang=langIDs, language=langs, dist=dists)
   out <- out[out$lang != id, ]
   out <- out[order(out$dist, decreasing=FALSE), ]
   names(out) <- c("language_ID", "language", "distance")
