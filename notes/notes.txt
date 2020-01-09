@@ -1,0 +1,17 @@
+Comments from alpha testers:
+
+
+Stephen 14.4.2019 via Slack:
+Problems with some special characters not showing up, e.g. ç: "Langue des Signes FranÃ§aise". Same happens with any accented characters in WALS_languages.
+
+Stephen 15.4.2019 via Slack:
+Include a column (in WALS and in WALS_features) giving feature's "area", i.e. whether it's phonology, morphology etc.
+
+Stephen 15.4.2019 via Slack:
+Provide a function for filtering out languages depending on how many features they have data points for; particularly relevant for random sampling of languages
+
+George 17.4.2019 in Bibcafe:
+Provide more sensible (custom) error/warning messages, e.g. when the "stupid power user" attempts to request a language using an ID that does not exist
+
+Stephen ??.5.2019 in Red Chilli:
+Make a function that spits out the bibtex of a data point reference
