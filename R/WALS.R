@@ -35,7 +35,7 @@ filter_WALS <- function(expr,
   r <- eval(e, x, parent.frame())
   if (!is.logical(r))
     stop("'expr' must be logical")
-  x[r, ]
+  droplevels(x[r, ])
 }
 
 
@@ -44,16 +44,16 @@ filter_WALS <- function(expr,
 #' Return the representation of a feature in WALS.
 #'
 #' Returns the relevant portion of the \code{\link{WALS}} data frame.
-#' Feature values and value IDs are returned as factors.
 #' @param id Feature's WALS ID
 #' @param data Optionally, a data frame (such as a subset of \code{\link{WALS}})
 #' @return A data frame
 #' @export
 get_feature <- function(id,
                         data = WALS) {
+  feature_ID <- NULL # hack to avoid R CMD check note
   data <- filter_WALS(feature_ID==id, data=data)
-  data$value <- factor(data$value)
-  data$value_ID <- factor(data$value_ID)
+  #data$value <- factor(data$value)
+  #data$value_ID <- factor(data$value_ID)
   data
 }
 
@@ -76,7 +76,8 @@ get_feature <- function(id,
 #' feature_metadata(c("13A", "9A", "83A"))
 #' @export
 feature_metadata <- function(id) {
-  WALS_features[WALS_features$feature_ID %in% id, ]
+  df <- WALS_features[WALS_features$feature_ID %in% id, ]
+  droplevels(df)
 }
 
 
@@ -105,7 +106,7 @@ feature_metadata <- function(id) {
 #' language_metadata(c("fin", "swe"))
 #' @export
 language_metadata <- function(id) {
-  WALS_languages[WALS_languages$language_ID %in% id, ]
+  droplevels(WALS_languages[WALS_languages$language_ID %in% id, ])
 }
 
 
@@ -163,7 +164,7 @@ intersect_features <- function(ids,
     languages_in_this_feature <- unique(feature_df$language_ID)
     intersection <- intersection[intersection$language_ID %in% languages_in_this_feature, ]
   }
-  intersection
+  droplevels(intersection)
 }
 
 
@@ -175,7 +176,7 @@ intersect_features <- function(ids,
 #' @return A subset of the \code{\link{WALS}} data frame.
 #' @export
 sample_WALS_100 <- function() {
-  WALS[WALS$in_WALS_100, ]
+  droplevels(WALS[WALS$in_WALS_100, ])
 }
 
 
@@ -183,9 +184,9 @@ sample_WALS_100 <- function() {
 #'
 #' Return the WALS 200-language sample.
 #'
-#' Returns the portion of \code{\link{WALS}} where \code{in_WALS_200} is \code{TRUE}. Note that the WALS 200-languages sample contains \emph{202} languages.
+#' Returns the portion of \code{\link{WALS}} where \code{in_WALS_200} is \code{TRUE}. Note that the WALS 200-language sample contains \emph{202} languages.
 #' @return A subset of the \code{\link{WALS}} data frame.
 #' @export
 sample_WALS_200 <- function() {
-  WALS[WALS$in_WALS_200, ]
+  droplevels(WALS[WALS$in_WALS_200, ])
 }

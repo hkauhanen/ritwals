@@ -73,5 +73,5 @@ sample_random <- function(N,
     stop("N is larger than the number of languages in data; cannot sample")
   }
   sam <- sample(langs, size=N, replace=FALSE)
-  WALS[WALS$language_ID %in% sam, ]
+  droplevels(WALS[WALS$language_ID %in% sam, ])
 }

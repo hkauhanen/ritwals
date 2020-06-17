@@ -25,7 +25,7 @@ a perfectly spherical Earth of radius 6,371 km.
 a <- great_circle_distance("fre", "ger")
 b <- great_circle_distance("ger", "rus")
 c <- great_circle_distance("fre", "rus")
-if (a + b <= c) {
+if (a + b >= c) {
   print("The triangle inequality works!")
 }
 }

@@ -48,6 +48,15 @@ make_WALS_languages <- function(folder = langfolder,
   langs <- langs[, c("language_ID", "iso_code", "glottocode", "language", "family", "genus", "macroarea", "countrycodes", "latitude", "longitude", "in_WALS_100", "in_WALS_200")]
   langs$latitude <- as.numeric(langs$latitude)
   langs$longitude <- as.numeric(langs$longitude)
+
+  cols <- names(langs)
+  for (col in cols) {
+    if (!(col %in% c("latitude", "longitude", "in_WALS_100", "in_WALS_200"))) {
+    langs[[col]] <- factor(langs[[col]])
+    Encoding(levels(langs[[col]])) <- "UTF-8"
+    }
+  }
+
   langs
 }
 
@@ -66,7 +75,17 @@ make_WALS_features <- function(folder = rawfolder) {
   feats <- feats[!duplicated(feats), ]
   names(feats)[1] <- "feature_ID"
   feats <- feats[, c("feature_ID", "feature", "value_ID", "value", "code_ID")]
-  feats$value_ID <- as.numeric(feats$value_ID)
+
+  #feats$value_ID <- as.numeric(feats$value_ID)
+
+  cols <- names(feats)
+  for (col in cols) {
+    #if (!(col %in% c("value_ID"))) {
+    feats[[col]] <- factor(feats[[col]])
+    Encoding(levels(feats[[col]])) <- "UTF-8"
+    #}
+  }
+
   feats
 }
 
@@ -77,6 +96,10 @@ make_WALS_contributions <- function(folder = rawfolder) {
                     colClasses="character")
   conts <- conts[, c("ID", "Contributors")]
   names(conts) <- c("contribution_ID", "contributors")
+  conts$contribution_ID <- factor(conts$contribution_ID)
+  conts$contributors <- factor(conts$contributors)
+  Encoding(levels(conts$contribution_ID)) <- "UTF-8"
+  Encoding(levels(conts$contributors)) <- "UTF-8"
   conts
 }
 
@@ -122,7 +145,17 @@ make_WALS <- function(folder = rawfolder) {
                    "in_WALS_200",
                    "source",
                    "contributors")]
-  wals$value <- defactorize(wals$value)
+  #wals$value <- defactorize(wals$value)
+
+  cols <- names(wals)
+  for (col in cols) {
+    #if (!(col %in% c("value_ID", "latitude", "longitude", "in_WALS_100", "in_WALS_200"))) {
+    if (!(col %in% c("latitude", "longitude", "in_WALS_100", "in_WALS_200"))) {
+    wals[[col]] <- factor(wals[[col]])
+    Encoding(levels(wals[[col]])) <- "UTF-8"
+    }
+  }
+
   wals
 }
 

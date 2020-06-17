@@ -13,5 +13,5 @@ A subset of the \code{\link{WALS}} data frame.
 Return the WALS 200-language sample.
 }
 \details{
-Returns the portion of \code{\link{WALS}} where \code{in_WALS_200} is \code{TRUE}. Note that the WALS 200-languages sample contains \emph{202} languages.
+Returns the portion of \code{\link{WALS}} where \code{in_WALS_200} is \code{TRUE}. Note that the WALS 200-language sample contains \emph{202} languages.
 }
