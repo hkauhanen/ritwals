@@ -19,5 +19,4 @@ Return the representation of a feature in WALS.
 }
 \details{
 Returns the relevant portion of the \code{\link{WALS}} data frame.
-Feature values and value IDs are returned as factors.
 }

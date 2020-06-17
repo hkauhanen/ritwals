@@ -13,7 +13,7 @@
 #' a <- great_circle_distance("fre", "ger")
 #' b <- great_circle_distance("ger", "rus")
 #' c <- great_circle_distance("fre", "rus")
-#' if (a + b <= c) {
+#' if (a + b >= c) {
 #'   print("The triangle inequality works!")
 #' }
 #' @export
@@ -94,10 +94,10 @@ nearest_geo_neighbours <- function(id,
 
   # filter and return
   if (k <= nrow(out)) {
-    return(out[1:k,])
+    return(droplevels(out[1:k,]))
   } else {
     warning(paste0("Language has only ", nrow(out), " neighbours with the given filtering; check your 'data' argument"))
-    return(out)
+    return(droplevels(out))
   }
 }
 
@@ -139,7 +139,7 @@ nearest_geo_neighbours_discoidal <- function(id,
   out <- find_neighbours(id=id, data=data)
 
   # filter output
-  out[out$dist <= radius, ]
+  droplevels(out[out$dist <= radius, ])
 }
 
 
