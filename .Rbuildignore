@@ -2,3 +2,7 @@
 ^tmp$
 ^notes$
 ritwals.pdf
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^index.md$
