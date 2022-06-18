@@ -22,11 +22,11 @@
 contingency_table <- function(ids,
                               names = TRUE,
                               absolute = TRUE,
-                              data = WALS) {
+                              data = ritwals::WALS) {
   if (length(ids) < 2) {
     stop("You need to supply at least two feature IDs to create a contingency table")
   }
-  intersection <- intersect_features(ids)
+  intersection <- intersect_features(ids, data=data)
 
   if (names) {
     intersection$value_ID <- paste0(intersection$value_ID, " (", intersection$value, ")")

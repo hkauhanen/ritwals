@@ -3,7 +3,8 @@
 \name{WALS_languages}
 \alias{WALS_languages}
 \title{WALS Language Metadata}
-\format{A data frame of 2679 rows (one row per language) with the following 12 variables:
+\format{
+A data frame of 2679 rows (one row per language) with the following 12 variables:
 \describe{
 \item{\code{language_ID}}{Language's WALS ID (or 'WALS code')}
 \item{\code{iso_code}}{Language's ISO code}
@@ -17,7 +18,8 @@
 \item{\code{longitude}}{Language's longitude in degrees}
 \item{\code{in_WALS_100}}{Boolean: \code{TRUE} if language belongs to the WALS 100-language sample}
 \item{\code{in_WALS_200}}{Boolean: \code{TRUE} if language belongs to the WALS 200-language sample}
-}}
+}
+}
 \source{
 \url{http://wals.info}
 }

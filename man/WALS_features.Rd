@@ -3,14 +3,16 @@
 \name{WALS_features}
 \alias{WALS_features}
 \title{WALS Feature Metadata}
-\format{A data frame with the following variables:
+\format{
+A data frame with the following variables:
 \describe{
 \item{\code{feature_ID}}{Feature's WALS ID}
 \item{\code{feature}}{Feature's name}
 \item{\code{value_ID}}{Value ID}
 \item{\code{value}}{Value's name}
 \item{\code{code_ID}}{Identifier combining \code{feature_ID} and \code{value_ID}}
-}}
+}
+}
 \source{
 \url{http://wals.info}
 }

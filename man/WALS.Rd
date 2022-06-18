@@ -4,7 +4,8 @@
 \name{WALS}
 \alias{WALS}
 \title{World Atlas of Language Structures}
-\format{A data frame of 76465 rows (each row representing one language-feature combination) and 20 variables:
+\format{
+A data frame of 76465 rows (each row representing one language-feature combination) and 20 variables:
 \describe{
 \item{\code{combined_ID}}{Identifier combining \code{feature_ID} and \code{language_ID}; identifies a unique row in the data frame}
 \item{\code{feature_ID}}{Feature ID}
@@ -26,7 +27,8 @@
 \item{\code{in_WALS_200}}{Boolean: \code{TRUE} if language belongs to the WALS 200-language sample}
 \item{\code{source}}{Information source for this language-feature combination}
 \item{\code{contributors}}{WALS contributors for this language-feature combination}
-}}
+}
+}
 \source{
 \url{http://wals.info}
 }

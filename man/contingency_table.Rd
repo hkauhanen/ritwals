@@ -4,7 +4,7 @@
 \alias{contingency_table}
 \title{Contingency Tables}
 \usage{
-contingency_table(ids, names = TRUE, absolute = TRUE, data = WALS)
+contingency_table(ids, names = TRUE, absolute = TRUE, data = ritwals::WALS)
 }
 \arguments{
 \item{ids}{Vector of feature IDs}
